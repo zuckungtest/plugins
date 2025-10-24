@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-24 | update: automata.in.human.space<br>
 2025-10-24 | update: automata.destruction.0percent<br>
 2025-10-24 | update: better.starts<br>
 2025-10-23 | update: combat.ai<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-11 | update: ship.merging<br>
 2025-10-07 | update: uniques<br>
 2025-10-05 | update: control.station<br>
-2025-10-01 | update: additional.command.buttons.radial<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -157,7 +157,7 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.in.human.space.png" width="130" height="20">
 
-[automata.in.human.space.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.2-automata.in.human.space/automata.in.human.space.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
+[automata.in.human.space.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.3-automata.in.human.space/automata.in.human.space.zip) | 96.62 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
