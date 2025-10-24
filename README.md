@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-24 | update: disable.spaceport.repeatables<br>
 2025-10-24 | update: automata.in.human.space<br>
 2025-10-24 | update: automata.destruction.0percent<br>
 2025-10-24 | update: better.starts<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-11 | update: vague.improvements<br>
 2025-10-11 | update: ship.merging<br>
 2025-10-07 | update: uniques<br>
-2025-10-05 | update: control.station<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -469,7 +469,7 @@ added icon.png<br>
 <img src="myplugins/disable.spaceport.repeatables/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.spaceport.repeatables.png" width="130" height="20">
 
-[disable.spaceport.repeatables.zip](https://github.com/zuckungtest/plugins/releases/download/v1.1.1-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.spaceport.repeatables/) | <a href="res/imagemd/disable.spaceport.repeatables.md">view images</a> [2]<br>
+[disable.spaceport.repeatables.zip](https://github.com/zuckungtest/plugins/releases/download/v1.1.2-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) | 108.22 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.spaceport.repeatables/) | <a href="res/imagemd/disable.spaceport.repeatables.md">view images</a> [2]<br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
 
