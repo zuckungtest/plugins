@@ -17,6 +17,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <table>
 <tr>
 <td><img width="882" height="1"><br>
+2025-10-24 | update: disable.person.ships<br>
 2025-10-24 | update: disable.spaceport.repeatables<br>
 2025-10-24 | update: automata.in.human.space<br>
 2025-10-24 | update: automata.destruction.0percent<br>
@@ -26,7 +27,6 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 2025-10-12 | update: ship.merging<br>
 2025-10-11 | update: vague.improvements<br>
 2025-10-11 | update: ship.merging<br>
-2025-10-07 | update: uniques<br>
 <img width="882" height="1"><br>
 </td>
 </tr>
@@ -226,7 +226,7 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png" width="130" height="20">
 
-[better.starts.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.6-better.starts/better.starts.zip) | 804.25 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [6]<br>
+[better.starts.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.6-better.starts/better.starts.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [6]<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
@@ -377,7 +377,7 @@ screenshots(click to enlarge):<br>
 <img src="myplugins/disable.person.ships/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.person.ships.png" width="130" height="20">
 
-[disable.person.ships.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0-disable.person.ships/disable.person.ships.zip) | N/A | N/A | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.person.ships/) | <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
+[disable.person.ships.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.1-disable.person.ships/disable.person.ships.zip) | 107.71 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.person.ships/) | <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
 <br>
 >Disables all person ships. See the README for details.
 
