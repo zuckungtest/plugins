@@ -1,3 +1,4 @@
+2025-10-24 | update: automata.destruction.0percent
 2025-10-24 | update: better.starts
 2025-10-23 | update: combat.ai
 2025-10-16 | update: vague.improvements
