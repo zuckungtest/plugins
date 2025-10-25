@@ -229,8 +229,8 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png" width="130" height="20">
 
-[better.starts.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.6-better.starts/better.starts.zip) v1.0.6 | 804.25 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [6]<br>
-([show previous versions](https://github.com/zuckungtest/plugins/releases?q=better.starts-&expanded=true))<br>
+[better.starts.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.6-better.starts/better.starts.zip) v1.0.6 | 804.25 kb | 2025-10-24 | [show previous versions](https://github.com/zuckungtest/plugins/releases?q=better.starts-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [6]<br>
+()<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
