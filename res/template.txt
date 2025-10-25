@@ -44,6 +44,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/%name%.png" width="130" height="20">
 
 [%assetfile%](%assetfullpath%%assetfile%) | %size% | %lastmodified% | [view files](%pluginurl%%pluginnameurl%/) | %imagemd%<br>
+%version%<br>
 <br>
 %description%
 <details>
