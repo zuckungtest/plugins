@@ -160,7 +160,7 @@ changed readme<br>
 
 [automata.in.human.space.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.3-automata.in.human.space/automata.in.human.space.zip)<br>
 v1.0.3 | 96.62 kb | 2025-10-24<br>
-[show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.in.human.space-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
+[view versions](https://github.com/zuckungtest/plugins/releases?q=automata.in.human.space-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
