@@ -73,6 +73,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.destruction.0percent.png" width="130" height="20">
 
 [automata.destruction.0percent.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip) v1.0.2 | 106.67 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
+<br>
 ([show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.destruction.0percent-&expanded=true))<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
