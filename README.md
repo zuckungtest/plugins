@@ -72,7 +72,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.destruction.0percent.png" width="130" height="20">
 
-[automata.destruction.0percent.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip) v1.0.2 | 106.67 kb | 2025-10-24 | [show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.destruction.0percent-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
+[automata.destruction.0percent.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip)<br>
+v1.0.2 | 106.67 kb | 2025-10-24 | [show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.destruction.0percent-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -157,7 +158,9 @@ changed readme<br>
 <img src="myplugins/automata.in.human.space/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/automata.in.human.space.png" width="130" height="20">
 
-[automata.in.human.space.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.3-automata.in.human.space/automata.in.human.space.zip) v1.0.3 | 96.62 kb | 2025-10-24 | [show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.in.human.space-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
+[automata.in.human.space.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.3-automata.in.human.space/automata.in.human.space.zip)<br>
+v1.0.3 | 96.62 kb | 2025-10-24<br>
+[show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.in.human.space-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
