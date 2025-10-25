@@ -73,7 +73,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.destruction.0percent.png" width="130" height="20">
 
 [automata.destruction.0percent.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip) v1.0.2 | 106.67 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
-[show previous versions](https://github.com/zuckung/zuckungtest/plugins/releases?q=%name-&expanded=true)<br>
+([show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.destruction.0percent-&expanded=true))<br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
@@ -159,7 +159,7 @@ changed readme<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/automata.in.human.space.png" width="130" height="20">
 
 [automata.in.human.space.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.3-automata.in.human.space/automata.in.human.space.zip) v1.0.3 | 96.62 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/) | <a href="res/imagemd/automata.in.human.space.md">view images</a> [2]<br>
-[show previous versions](https://github.com/zuckung/zuckungtest/plugins/releases?q=%name-&expanded=true)<br>
+([show previous versions](https://github.com/zuckungtest/plugins/releases?q=automata.in.human.space-&expanded=true))<br>
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
@@ -229,7 +229,7 @@ changed icon.png<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/better.starts.png" width="130" height="20">
 
 [better.starts.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.6-better.starts/better.starts.zip) v1.0.6 | 804.25 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/better.starts/) | <a href="res/imagemd/better.starts.md">view images</a> [6]<br>
-[show previous versions](https://github.com/zuckung/zuckungtest/plugins/releases?q=%name-&expanded=true)<br>
+([show previous versions](https://github.com/zuckungtest/plugins/releases?q=better.starts-&expanded=true))<br>
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
@@ -381,7 +381,7 @@ screenshots(click to enlarge):<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.person.ships.png" width="130" height="20">
 
 [disable.person.ships.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.1-disable.person.ships/disable.person.ships.zip) v1.0.1 | 107.71 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.person.ships/) | <a href="res/imagemd/disable.person.ships.md">view images</a> [2]<br>
-[show previous versions](https://github.com/zuckung/zuckungtest/plugins/releases?q=%name-&expanded=true)<br>
+([show previous versions](https://github.com/zuckungtest/plugins/releases?q=disable.person.ships-&expanded=true))<br>
 <br>
 >Disables all person ships. See the README for details.
 
@@ -474,7 +474,7 @@ added icon.png<br>
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/main/pics/disable.spaceport.repeatables.png" width="130" height="20">
 
 [disable.spaceport.repeatables.zip](https://github.com/zuckungtest/plugins/releases/download/v1.1.2-disable.spaceport.repeatables/disable.spaceport.repeatables.zip) v1.1.2 | 108.22 kb | 2025-10-24 | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.spaceport.repeatables/) | <a href="res/imagemd/disable.spaceport.repeatables.md">view images</a> [2]<br>
-[show previous versions](https://github.com/zuckung/zuckungtest/plugins/releases?q=%name-&expanded=true)<br>
+([show previous versions](https://github.com/zuckungtest/plugins/releases?q=disable.spaceport.repeatables-&expanded=true))<br>
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
 
