@@ -10,7 +10,7 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="https://github.com/zuckung/endless-sky-plugins/archive/refs/heads/main.zip"><img src="https://img.shields.io/github/repo-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/code-size/zuckung/endless-sky-plugins"></a>
 <a href="https://img.shields.io/"><img src="https://img.shields.io/github/languages/top/zuckung/endless-sky-plugins"></a>
-<img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/total.png" width="130" height="20">
+<img src="https://raw.githubusercontent.com/zuckungtest/teststat/master/pics/total.png" width="130" height="20">
 <br>
 
 ## Latest News:
