@@ -141,6 +141,8 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 	# writes the template header to the README.md
 	with open(indexfile, 'w') as file1:
 		file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
+	with open('page/plugins.html, 'w') as file1:
+			file1.writelines(header.replace('%pluginlist%', pluginlist).replace('%news%', news))
 	print('README.md header WRITTEN!')
 	# read plugin folders, and create a plugin view for each
 	entries = os.listdir(pathtoplugins)
@@ -268,6 +270,8 @@ def make_readme(templatefile, pathtoplugins, indexfile, pluginurl, current_repo)
 		pa_template = pa_template.replace('%repository%', current_repo.split('/')[1])
 		# write index file, appending this plugin entry
 		with open(indexfile, 'a') as file1:
+			file1.writelines(pa_template)
+		with open('page/plugins.html, 'a') as file1:
 			file1.writelines(pa_template)
 		print(entry + ' WRITTEN')
 	print(indexfile + ' COMPLETE!')	
