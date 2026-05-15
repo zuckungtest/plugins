@@ -127,7 +127,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=additional.command.buttons.radial-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/additional.command.buttons.radial/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/additional.command.buttons.radial.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[64]-8A2BE2">](res/imagemd/additional.command.buttons.radial.md)<br>
 
 <br>
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
@@ -432,7 +432,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=automata.destruction.0percent-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.destruction.0percent/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/automata.destruction.0percent.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/automata.destruction.0percent.md)<br>
 
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
@@ -524,7 +524,7 @@ changed readme<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=automata.in.human.space-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.in.human.space/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/automata.in.human.space.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/automata.in.human.space.md)<br>
 
 <br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
@@ -600,7 +600,7 @@ changed icon.png<br>
 <img src="https://img.shields.io/badge/2025--10--24-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=better.starts-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/better.starts/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/better.starts.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[6]-8A2BE2">](res/imagemd/better.starts.md)<br>
 
 <br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
@@ -758,7 +758,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=boss.loot-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/boss.loot/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/boss.loot.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[588]-8A2BE2">](res/imagemd/boss.loot.md)<br>
 
 <br>
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
@@ -889,7 +889,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=bunrodea.missions-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/bunrodea.missions/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/bunrodea.missions.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[46]-8A2BE2">](res/imagemd/bunrodea.missions.md)<br>
 
 <br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
@@ -1148,7 +1148,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=captureable.person.ships-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/captureable.person.ships/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/captureable.person.ships.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[4]-8A2BE2">](res/imagemd/captureable.person.ships.md)<br>
 
 <br>
 >Makes person ships capturable. See the README for details.
@@ -1398,7 +1398,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=coalition.shopping-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/coalition.shopping/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/coalition.shopping.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[6]-8A2BE2">](res/imagemd/coalition.shopping.md)<br>
 
 <br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in the 'Homeward' system. See the README for details.
@@ -1505,7 +1505,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=combat.ai-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/combat.ai/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/combat.ai.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[6]-8A2BE2">](res/imagemd/combat.ai.md)<br>
 
 <br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
@@ -1743,7 +1743,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=comets-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/comets/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/comets.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[504]-8A2BE2">](res/imagemd/comets.md)<br>
 
 <br>
 >Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable. See the README for details.
@@ -1835,7 +1835,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=control.station-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/control.station/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/control.station.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[405]-8A2BE2">](res/imagemd/control.station.md)<br>
 
 <br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
@@ -2000,7 +2000,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=disable.person.ships-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.person.ships/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/disable.person.ships.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/disable.person.ships.md)<br>
 
 <br>
 >Disables all person ships. See the README for details.
@@ -2099,7 +2099,7 @@ added icon.png<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=disable.spaceport.repeatables-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/disable.spaceport.repeatables/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/disable.spaceport.repeatables.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/disable.spaceport.repeatables.md)<br>
 
 <br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
@@ -2226,7 +2226,7 @@ added icon.png<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=expert.crew.members-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/expert.crew.members/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/expert.crew.members.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[204]-8A2BE2">](res/imagemd/expert.crew.members.md)<br>
 
 <br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
@@ -2450,7 +2450,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=flare.play-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/flare.play/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/flare.play.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[691]-8A2BE2">](res/imagemd/flare.play.md)<br>
 
 <br>
 >Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
@@ -2545,7 +2545,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=galactic.capital.investment-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/galactic.capital.investment/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/galactic.capital.investment.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[23]-8A2BE2">](res/imagemd/galactic.capital.investment.md)<br>
 
 <br>
 >Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space. See the README for details.
@@ -2782,7 +2782,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=gegno.pirates-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/gegno.pirates/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/gegno.pirates.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[8]-8A2BE2">](res/imagemd/gegno.pirates.md)<br>
 
 <br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
@@ -2925,7 +2925,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=hai.side.mission.unlocker-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/hai.side.mission.unlocker/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/hai.side.mission.unlocker.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/hai.side.mission.unlocker.md)<br>
 
 <br>
 >Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the README for details.
@@ -3027,7 +3027,7 @@ initial release<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=heavy.traffic-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/heavy.traffic/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/heavy.traffic.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/heavy.traffic.md)<br>
 
 <br>
 >Offers thousands of new jobs with high cargo and passengers. See the README for details.
@@ -3098,7 +3098,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=highrollers.ltd-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/highrollers.ltd/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/highrollers.ltd.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[15]-8A2BE2">](res/imagemd/highrollers.ltd.md)<br>
 
 <br>
 >This plugin adds some casino space stations where you can gamble. See the README for details.
@@ -3176,7 +3176,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=human.labels-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/human.labels/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/human.labels.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[411]-8A2BE2">](res/imagemd/human.labels.md)<br>
 
 <br>
 >Reworks the Human area labels and adds area borders. See the README for details.
@@ -3292,7 +3292,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=job.coloring-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/job.coloring/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/job.coloring.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/job.coloring.md)<br>
 
 <br>
 >Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details.
@@ -3388,7 +3388,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=jump.gates-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/jump.gates/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/jump.gates.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[24]-8A2BE2">](res/imagemd/jump.gates.md)<br>
 
 <br>
 >Adds a ring of 'jump gates' at the borders of human space to create shortcuts inside the human space. See the README for details.
@@ -3480,7 +3480,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=kestrel.unlocks-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/kestrel.unlocks/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/kestrel.unlocks.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/kestrel.unlocks.md)<br>
 
 <br>
 >Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.
@@ -3548,7 +3548,7 @@ initial release<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=kor.efret.shipyard-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/kor.efret.shipyard/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/kor.efret.shipyard.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/kor.efret.shipyard.md)<br>
 
 <br>
 >Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details.
@@ -3758,7 +3758,7 @@ reworked readme<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=landing.images-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/landing.images/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/landing.images.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[527]-8A2BE2">](res/imagemd/landing.images.md)<br>
 
 <br>
 >Replaces all planet landing images with better fitting ones. See the README for details.
@@ -3847,7 +3847,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=landing.images.highres-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/landing.images.highres/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/landing.images.highres.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[527]-8A2BE2">](res/imagemd/landing.images.highres.md)<br>
 
 <br>
 >High resolution files for landing.images plugin. See the README for details.
@@ -3923,7 +3923,7 @@ initial release<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=licenses-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/licenses/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/licenses.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[18]-8A2BE2">](res/imagemd/licenses.md)<br>
 
 <br>
 >Adds several side missions to acquire unobtainable licenses. See the README for details.
@@ -4027,7 +4027,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=mission.helper-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/mission.helper/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/mission.helper.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/mission.helper.md)<br>
 
 <br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
@@ -4179,7 +4179,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=more.arfectas-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/more.arfectas/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/more.arfectas.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/more.arfectas.md)<br>
 
 <br>
 >Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the README for details.
@@ -4258,7 +4258,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=more.boarding.missions-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/more.boarding.missions/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/more.boarding.missions.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[50]-8A2BE2">](res/imagemd/more.boarding.missions.md)<br>
 
 <br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
@@ -4481,7 +4481,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=more.person.ships-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/more.person.ships/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/more.person.ships.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[34]-8A2BE2">](res/imagemd/more.person.ships.md)<br>
 
 <br>
 >This plugin adds more person ships to the different regions of the galaxy. See the README for details.
@@ -4631,7 +4631,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=no.more.mereti.mines-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/no.more.mereti.mines/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/no.more.mereti.mines.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[4]-8A2BE2">](res/imagemd/no.more.mereti.mines.md)<br>
 
 <br>
 >Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns to increase game performance. See the README for details.
@@ -4709,7 +4709,7 @@ initial release<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=outfits.weapon.slot-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/outfits.weapon.slot/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/outfits.weapon.slot.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[28]-8A2BE2">](res/imagemd/outfits.weapon.slot.md)<br>
 
 <br>
 >Adds several non-weapon outfits for gun and turret ports. See the README for details.
@@ -4786,7 +4786,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=paint.your.ships-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/paint.your.ships/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/paint.your.ships.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[4]-8A2BE2">](res/imagemd/paint.your.ships.md)<br>
 
 <br>
 >Offers a job on Earth to paint your ships. See the README for details.
@@ -4864,7 +4864,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=planet.map-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/planet.map/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/planet.map.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[62]-8A2BE2">](res/imagemd/planet.map.md)<br>
 
 <br>
 >This is a storyline entirely on a planets surface(with fitting visuals). Available at the outfitter on planet Memory. See the README for details.
@@ -4987,7 +4987,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=quarg.farm-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/quarg.farm/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/quarg.farm.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/quarg.farm.md)<br>
 
 <br>
 >Adds a new system 'Saquerver' (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
@@ -5094,7 +5094,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=ship.merging-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/ship.merging/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/ship.merging.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[10]-8A2BE2">](res/imagemd/ship.merging.md)<br>
 
 <br>
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
@@ -5206,7 +5206,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=show.reputation-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/show.reputation/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/show.reputation.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[5]-8A2BE2">](res/imagemd/show.reputation.md)<br>
 
 <br>
 >Enables a job on the Earth job board, that shows the reputation values. See the README for details.
@@ -5315,7 +5315,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=snowfeather.robotics-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/snowfeather.robotics/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/snowfeather.robotics.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[22]-8A2BE2">](res/imagemd/snowfeather.robotics.md)<br>
 
 <br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
@@ -5438,7 +5438,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=space.fauna-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/space.fauna/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/space.fauna.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[18]-8A2BE2">](res/imagemd/space.fauna.md)<br>
 
 <br>
 >Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the README for details.
@@ -5527,7 +5527,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=too.many.asteroids-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/too.many.asteroids/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/too.many.asteroids.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/too.many.asteroids.md)<br>
 
 <br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
@@ -5637,7 +5637,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=tribute.republic-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/tribute.republic/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/tribute.republic.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/tribute.republic.md)<br>
 
 <br>
 >Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details.
@@ -5713,7 +5713,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=uniques-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/uniques/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/uniques.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[186]-8A2BE2">](res/imagemd/uniques.md)<br>
 
 <br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
@@ -6058,7 +6058,7 @@ screenshots(click to enlarge):<br>
 <img src="https://img.shields.io/badge/N/A-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=vague.improvements-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/vague.improvements/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/vague.improvements.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[2]-8A2BE2">](res/imagemd/vague.improvements.md)<br>
 
 <br>
 >A bunch of small QoL adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks. See the README for details.
