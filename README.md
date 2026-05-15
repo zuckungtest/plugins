@@ -72,9 +72,9 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <img src="myplugins/automata.destruction.0percent/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/teststat/master/pics/automata.destruction.0percent.png" width="130" height="20">
 
-[automata.destruction.0percent.zip](https://github.com/zuckungtest/plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip)<br>
-v1.0.2 | 106.67 kb | 2025-10-24<br>
-[view versions](https://github.com/zuckungtest/plugins/releases?q=automata.destruction.0percent-&expanded=true) | [view files](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.destruction.0percent/) | <a href="res/imagemd/automata.destruction.0percent.md">view images</a> [2]<br>
+[<img src="https://img.shields.io/badge/Download-8A2BE2">](https://github.com/zuckungtest/plugins/releases/download/v1.0.2-automata.destruction.0percent/automata.destruction.0percent.zip) 
+<img src="https://img.shields.io/badge/v1.0.2-8A2BE2"> <img src="https://img.shields.io/badge/106.67_kb-8A2BE2"> <img src="https://img.shields.io/badge/2025--10--24-8A2BE2"> 
+[<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=automata.destruction.0percent-&expanded=true) [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/automata.destruction.0percent/) <a href="res/imagemd/automata.destruction.0percent.md"><img src="https://img.shields.io/badge/viw_images_[2]-8A2BE2"></a><br>
 <br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
