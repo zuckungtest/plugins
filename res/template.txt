@@ -58,7 +58,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <img src="https://img.shields.io/badge/%lastmodifiedbadge%-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/%orgrepo%/releases?q=%name%-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](%pluginurl%%pluginnameurl%/)
-[<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/%name%.md)<br>
+[<img src="https://img.shields.io/badge/view_images_[%imagemdamount%]-8A2BE2">](res/imagemd/%name%.md)<br>
 
 <br>
 %description%
