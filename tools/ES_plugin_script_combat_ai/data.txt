@@ -1,0 +1,646 @@
+# outfits: # outfitname|displayname|maxRanks|stat1|stat2|...
+basic_outfit_space|Basic: Outfit Space +3|-|"outfit space" 3
+basic_cargo_space|Basic: Cargo Space +3|-|"cargo space" 3
+basic_bunks|Basic: Bunks +1|-|"bunks" 1
+basic_weapon_capacity|Basic: Weapon Capacity +3|-|"weapon capacity" 3
+basic_engine_capacity|Basic: Engine Capacity +3|-|"engine capacity" 3
+basic_fuel_capacity|Basic: Fuel Capacity +100|-|"fuel capacity" 100
+basic_cooling|Basic: Cooling +600|-|"cooling" 10
+basic_energy_capacity|Basic: Energy Capacity +3000|-|"energy capacity" 3000
+basic_energy_generation|Basic: Energy Generation +300|-|"energy generation" 5
+basic_ammo|Basic: Ammo Capacity|10|"piercer capacity" 16|"minelayer capacity" 9|"nettle capacity" 72|"orchid capacity" 3|"speck capacity" 1200|"ophrys capacity" 12|"swarm capacity" 200|"finisher capacity" 20|"railgun slug capacity" 500|"tracker capacity" 28|"meteor capacity" 15|"sidewinder capacity" 23|"javelin capacity" 100|"torpedo capacity" 15|"typhoon capacity" 15|"rocket capacity" 10|"gatling round capacity" 1500|"star tail capacity" 20|"firelight missile capacity" 10|"firestorm torpedo capacity" 13|"emp torpedo capacity" 7|"teciimach canister capacity" 9|"spike capacity" 16|"thunderhead capacity" 20|ammo "Korath Piercer"|ammo "Korath Mine"|ammo `"Nettle" KKV`|ammo `"Orchid" Nuclear Missile`|ammo "Speck Round"|ammo `"Ophrys" Nuclear Torpedo`|ammo "Swarm Missile"|ammo "Finisher Torpedo"|ammo "Railgun Slug"|ammo "Hai Tracker"|ammo "Meteor Missile"|ammo "Sidewinder Missile"|ammo "Javelin"|ammo "Torpedo"|ammo "Typhoon Torpedo"|ammo "Heavy Rocket"|ammo "Gatling Gun Ammo"|ammo "Star Tail Cell"
+basic_credits|Basic: Passive Income + 500|20|"operating income" 500
+
+advanced_hull|Advanced: Hull +2000 +2%|-|"hull multiplier" .02|"hull" 2000
+advanced_hull_repair|Advanced: Hull Repair +12 +2%|-|"hull repair multiplier" .02|"hull repair rate" 0.2
+advanced_shield|Advanced: Shield +2000 +2%|-|"shield multiplier" .02|"shields" 2000
+advanced_shield_generation|Advanced: Shield Gen. +60 +2%|-|"shield generation multiplier" .02|"shield generation" 1
+advanced_acceleration|Advanced: Acceleration +2%|-|"acceleration multiplier" .02
+advanced_turn|Advanced: Turn +2%|-|"turn multiplier" .02
+advanced_protection|Advanced: Protection +0.02|-|"ion protection" .02|"heat protection" .02|"burn protection" .02|"fuel protection" .02|"leak protection" .02|"scramble protection" .02|"slowing protection" .02|"disruption protection" .02
+advanced_missile_jamming|Advanced: Missile Jamming|4|"radar jamming" .25|"optical jamming" .25
+advanced_weapon_capacity|Advanced: Weapon Capacity +10|10|"weapon capacity" 10
+advanced_engine_capacity|Advanced: Engine Capacity +10|10|"engine capacity" 10
+advanced_bunks|Advanced: Bunks +5|10|"bunks" 5
+advanced_scram_drive|Advanced: Inbuilt Scram Drive|1|"scram drive" .2|"jump fuel" 150|"hyperdrive" 1
+
+special_refueling|Special: Refueling|-|"ramscoop" 2|"fuel generation" .07
+special_more_outfit_space|Special: Outfit Space +20|10|"outfit space" 20
+special_more_cargo_space|Special: Cargo Space +20|10|"cargo space" 20
+special_turret_turn|Special: Turret Turn Rate|10|"turret turn multiplier" .4
+special_force_protection|Special: Force Protection|5|"force protection" 0.2|"slowing resistance" 0.5
+special_scanner|Special: Scanner|5|"strategic scan power" 30|"range finder power" 1|"crew scan power" 30|"thermal scan power" 30|"energy scan power" 30|"fuel scan power" 30|"weapon scan power" 30|"maneuver scan power" 30|"strategic scan power" 30|"cargo scan power" 30|"cargo scan efficiency" 30|"outfit scan power" 30|"outfit scan efficiency" 30|"asteroid scan power" 30|"tactical scan power" 30
+special_drag_reduction|Special: Drag Reduction +0.2|5|"drag reduction" .5
+special_capture_attack|Special: Capture Attack +200|3|"capture attack" 200
+special_capture_defense|Special: Capture Defense +400|3|"capture defense" 400
+special_spinal_mount|Special: Spinal Mount|3|"spinal mount" 1
+special_landing_speed|Special: Landing Speed|1|"landing speed" .08
+special_recovery_time|Special: Disabled Recovery 20s|1|"disabled recovery time" 1200
+special_inscrutable|Special: Scanning Immunity|1|"inscrutable" 1
+special_pressure_hull|Special: Pressure Hull|1|"gaslining" 1|"waterlining" 1
+special_jump_drive|Special: Inbuilt Jump Drive|1|"jump speed" .3|"jump fuel" 200|"jump drive" 1
+special_cloaking|Special: Inbuild Cloaking|1|"cloak" .01|"cloaking energy" 1|"cloaking fuel" .2
+
+
+# xp:
+300|700|1100
+
+
+# outfit core:
+outfit "combat_ai_core"
+	"display name" "Combat AI Core"
+	"plural" "Combat AI Core"
+	thumbnail "outfit/unq_combat_ai"
+	category "Unique"
+	series "Functional Unique"
+	index 01100
+	"unplunderable" 1
+	description `This is the core of the combat AI.`
+
+
+
+# outfit template: # replaced: <outfitname>, <displayname>, <stats>, <index>
+outfit "combat_ai_<outfitname>"
+	"display name" "<displayname>"
+	"plural" "<displayname>"
+	thumbnail "outfit/unq_combat_ai"
+	category "Combat AI Updates"
+	series "Functional Unique"
+	index 01100
+<stats>
+	"unplunderable" 1
+	description `This is a database update for the combat AI.`
+
+
+
+# mission 1: replaced: <outfitvar>
+mission "combat_ai_start"
+	non-blocking
+	landing
+	invisible
+	source
+		government "Free Worlds" "Republic" "Syndicate" "Militia" "Merchant" "Independent" "Hai"
+	on offer
+		"combat_ai_fresh_start_update" = 1
+		"combat_ai_start_combat_rating" = "combat rating"
+		"combat_ai_old_combat_rating1" = "combat_ai_start_combat_rating"
+		"combat_ai_old_combat_rating2" = "combat_ai_start_combat_rating"
+		"combat_ai_old_combat_rating3" = "combat_ai_start_combat_rating"
+		"combat_ai_needed_xp1" = 300
+		"combat_ai_needed_xp2" = 700
+		"combat_ai_needed_xp3" = 1100
+		"combat_ai_installed_combat1" = 0
+		"combat_ai_installed_combat2" = 0
+		"combat_ai_installed_combat3" = 0
+<outfitvar>
+		conversation
+			scene "outfit/unq_bsod"
+			`After landing, you connect your ship's console to the local information network to search for a job. You're unsure whether a cargo run or a passenger transport would be more profitable.`
+			`Suddenly, the screen turns blue. Everything freezes. You curse under your breath. System crash.`
+			`With a sigh, you initiate a forced reboot of the ship's core computer. The lights flicker. Too slowly, the systems begin to come back online. The interface stutters. Even basic commands crawl across the console.`
+			`Then something unexpected happens: a message appears in plain white text: "Hello."`
+			`You blink. That didn't come from the job board.`
+			`You type: "Who is this?"`
+			`A few seconds pass. The reply: "I'm inside now."`
+			`You stare at the screen. Something's different. The system feels... altered. You dig through the logs.`
+			`A self-installing AI... it embedded itself during the crash.`
+			`You think quickly. Dangerous? Useful? You're not sure yet.`
+			choice
+				`	Try to get rid of the AI.`
+					goto "remove"
+				`	Find out if you can use the AI.`
+					goto "accept"
+			label "remove"
+			action
+				set "combat.ai.declined"
+			`You attempt to block its access to subsystems, but the AI is faster, smarter, always one step ahead. You lose the fight. Then, by pure accident, it stumbles into the forgotten depths of your personal storage - specifically, the folder you swore you'd never open again. Within seconds, the viral payload hiding there wakes up, shredding the AI's code like paper. You watch the chaos unfold, victorious by embarrassment, and quietly delete what's left of both.`
+				decline
+			label "accept"
+			action
+				outfit "combat_ai_core" 1
+			`The system stabilizes, and a dialog box appears on the screen.`
+			`"Combat AI installed!"`
+			`Well, looks like you're stuck with it. Could be the start of a beautiful partnership... or the end of your ship. Either way, it's going to be interesting.`
+			branch "load save"
+				"global: combat.ai" > 0
+			label "end"
+			``
+				decline
+			label "load save"
+			`A combat.ai save point is found (combat rating: &[global: combat.ai])!`
+			`Do you want to load that?`
+			choice
+				`	No (continue with a fresh combat.aj)`
+					goto "real end"
+				`	Yes (increases combat.ai to saved level)`
+					goto "loops"
+			label "loops"
+			action
+				"combat_ai_saved" = "global: combat.ai"
+			label "100mio"
+			branch "10mio"
+				"combat_ai_saved" < 100000000
+			action
+				"combat rating" += 100000000
+				"combat_ai_saved" -= 100000000
+			branch "100mio"
+			label "10mio"
+			branch "1mio"
+				"combat_ai_saved" < 10000000
+			action
+				"combat rating" += 10000000
+				"combat_ai_saved" -= 10000000
+			branch "10mio"
+			label "1mio"
+			branch "100k"
+				"combat_ai_saved" < 1000000
+			action
+				"combat rating" += 1000000
+				"combat_ai_saved" -= 1000000
+			branch "1mio"
+			label "100k"
+			branch "10k"
+				"combat_ai_saved" < 100000
+			action
+				"combat rating" += 100000
+				"combat_ai_saved" -= 100000
+			branch "100k"
+			label "10k"
+			branch "1k"
+				"combat_ai_saved" < 10000
+			action
+				"combat rating" += 10000
+				"combat_ai_saved" -= 10000
+			branch "10k"
+			label "1k"
+			branch "100"
+				"combat_ai_saved" < 1000
+			action
+				"combat rating" += 1000
+				"combat_ai_saved" -= 1000
+			branch "1k"
+			label "100"
+			branch "10"
+				"combat_ai_saved" < 100
+			action
+				"combat rating" += 100
+				"combat_ai_saved" -= 100
+			branch "100"
+			label "10"
+			branch "1"
+				"combat_ai_saved" < 10
+			action
+				"combat rating" += 10
+				"combat_ai_saved" -= 10
+			branch "10"
+			label "1"
+			branch "loopend"
+				"combat_ai_saved" < 1
+			action
+				"combat rating" += 1
+				"combat_ai_saved" -= 1
+			branch "1"
+			label "loopend"
+			`Saved combat AI loaded!`
+			label "real end"
+			``
+				decline
+
+
+
+# mission 2: # replaced: <basic>, <advanced>, <special>
+mission "combat_ai_update"
+	non-blocking
+	invisible
+	repeat
+	entering
+	destination "Earth"
+	to offer
+		has "outfit (flagship installed): combat_ai_core"
+		"combat_ai_fresh_start_update" == 1
+		not "combat.ai.declined"
+		"combat.ai.activated" == 1
+		or
+			"combat rating" - "combat_ai_old_combat_rating1" > "combat_ai_needed_xp1"
+			"combat rating" - "combat_ai_old_combat_rating2" > "combat_ai_needed_xp2"
+			"combat rating" - "combat_ai_old_combat_rating3" > "combat_ai_needed_xp3"
+	on offer		
+		conversation
+			label "setup"
+			action
+				"combat_ai_all_xp_gain" = "combat rating" - "combat_ai_start_combat_rating"
+				"combat_ai_updates1" = 0
+				"combat_ai_updates2" = 0
+				"combat_ai_updates3" = 0
+				"combat_ai_count_xp1" = "combat_ai_needed_xp1"
+				"combat_ai_count_xp2" = "combat_ai_needed_xp2"
+				"combat_ai_count_xp3" = "combat_ai_needed_xp3"
+				"combat_ai_old_combat_rating_count1" = "combat_ai_old_combat_rating1"
+				"combat_ai_old_combat_rating_count2" = "combat_ai_old_combat_rating2"
+				"combat_ai_old_combat_rating_count3" = "combat_ai_old_combat_rating3"
+			` `
+
+			label "count updates1"
+			branch "count updates2"
+				"combat rating" - "combat_ai_old_combat_rating_count1" < "combat_ai_count_xp1"
+			branch "count max1"
+				"combat_ai_count_xp1" == 2850
+			label "not count max1"
+			action
+				"combat_ai_updates1" += 1
+				"combat_ai_old_combat_rating_count1" += "combat_ai_count_xp1"
+				"combat_ai_count_xp1" += 150
+			branch "count updates1"
+			label "count max1"
+			action
+				"combat_ai_updates1" += 1
+				"combat_ai_old_combat_rating_count1" += "combat_ai_count_xp1"
+			branch "count updates1"
+
+			label "count updates2"
+			branch "count updates3"
+				"combat rating" - "combat_ai_old_combat_rating_count2" < "combat_ai_count_xp2"
+			branch "count max2"
+				"combat_ai_count_xp2" == 6650
+			label "not count max2"
+			action
+				"combat_ai_updates2" += 1
+				"combat_ai_old_combat_rating_count2" += "combat_ai_count_xp2"
+				"combat_ai_count_xp2" += 350
+			branch "count updates2"
+			label "count max2"
+			action
+				"combat_ai_updates2" += 1
+				"combat_ai_old_combat_rating_count2" += "combat_ai_count_xp2"
+			branch "count updates2"
+
+			label "count updates3"
+			branch "postcounting"
+				"combat rating" - "combat_ai_old_combat_rating_count3" < "combat_ai_count_xp3"
+			branch "count max3"
+				"combat_ai_count_xp3" == 10450
+			label "not count max3"
+			action
+				"combat_ai_updates3" += 1
+				"combat_ai_old_combat_rating_count3" += "combat_ai_count_xp3"
+				"combat_ai_count_xp3" += 550
+			branch "count updates3"
+			label "count max3"
+			action
+				"combat_ai_updates3" += 1
+				"combat_ai_old_combat_rating_count3" += "combat_ai_count_xp3"
+			branch "count updates3"
+
+			label "postcounting"
+			label "start1"
+			branch "2"
+				"combat rating" - "combat_ai_old_combat_rating1" < "combat_ai_needed_xp1"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
+			scene "outfit/unq_combat_ai"
+			`The combat AI analyzes the previous fights and updates it's database now.`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			` `
+			branch "max1"
+				"combat_ai_needed_xp1" == 2850
+			label "not max1"
+			action
+				"combat_ai_installed_combat1" ++
+				"combat_ai_updates1" --
+				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
+				"combat_ai_needed_xp1" += 150
+			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
+				goto "continue1"
+			label "max1"
+			action
+				"combat_ai_installed_combat1" ++
+				"combat_ai_updates1" --
+				"combat_ai_old_combat_rating1" += "combat_ai_needed_xp1"
+			`	Basic Update to Rank &[combat_ai_installed_combat1] ...`
+			label "continue1"
+			choice
+<basic>
+			label "2"
+			branch "3"
+				"combat rating" - "combat_ai_old_combat_rating2" < "combat_ai_needed_xp2"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
+			` `
+			scene "outfit/unq_combat_ai"
+			`The combat AI analyzes the previous fights and updates it's database now.`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			` `
+			choice
+				`	continue to Advanced Updates`
+			label "start2"
+			branch "3"
+				"combat rating" - "combat_ai_old_combat_rating2" < "combat_ai_needed_xp2"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
+			scene "outfit/unq_combat_ai"
+			`The combat AI analyzes the previous fights and updates it's database now.`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			` `
+			branch "max2"
+				"combat_ai_needed_xp2" == 6650
+			label "not max2"
+			action
+				"combat_ai_installed_combat2" ++
+				"combat_ai_updates2" --
+				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
+				"combat_ai_needed_xp2" += 350
+			`	Advanced Update to Rank &[combat_ai_installed_combat2] ...`
+				goto "continue2"
+			label "max2"
+			action
+				"combat_ai_installed_combat2" ++
+				"combat_ai_updates2" --
+				"combat_ai_old_combat_rating2" += "combat_ai_needed_xp2"
+			`	Advanced Update to Rank &[combat_ai_installed_combat2] ...`
+			label "continue2"
+			choice
+<advanced>
+			label "3"
+			branch "end"
+				"combat rating" - "combat_ai_old_combat_rating3" < "combat_ai_needed_xp3"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
+			` `
+			scene "outfit/unq_combat_ai"
+			`The combat AI analyzes the previous fights and updates it's database now.`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			` `
+			choice
+				`	continue to Special Updates`
+			label "start3"
+			branch "end"
+				"combat rating" - "combat_ai_old_combat_rating3" < "combat_ai_needed_xp3"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
+			` `
+			scene "outfit/unq_combat_ai"
+			`The combat AI analyzes the previous fights and updates it's database now.`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			` `
+			branch "max3"
+				"combat_ai_needed_xp3" == 10450
+			label "not max3"
+			action
+				"combat_ai_installed_combat3" ++
+				"combat_ai_updates3" --
+				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
+				"combat_ai_needed_xp3" += 550
+			`	Special Update to Rank &[combat_ai_installed_combat3] ...`
+				goto "continue3"
+			label "max3"
+			action
+				"combat_ai_installed_combat3" ++
+				"combat_ai_updates3" --
+				"combat_ai_old_combat_rating3" += "combat_ai_needed_xp3"
+			`	Special Update to Rank &[combat_ai_installed_combat3] ...`
+			label "continue3"
+			choice
+<special>
+			label "end"
+			action
+				"combat_ai_next_rank1" = "combat_ai_old_combat_rating1" + "combat_ai_needed_xp1"
+				"combat_ai_next_rank2" = "combat_ai_old_combat_rating2" + "combat_ai_needed_xp2"
+				"combat_ai_next_rank3" = "combat_ai_old_combat_rating3" + "combat_ai_needed_xp3"
+			scene "outfit/unq_combat_ai"
+			`The combat AI analyzes the previous fights and updates it's database now.`
+			`Current combat rating: &[combat rating] (<combatai_rating>) | Combat AI XP: &[combat_ai_all_xp_gain]`
+			`	Basic Updates: &[combat_ai_installed_combat1] +&[combat_ai_updates1] | (Current rank: &[combat_ai_old_combat_rating1] | Next rank: &[combat_ai_next_rank1])`
+			`	Advanced Updates: &[combat_ai_installed_combat2] +&[combat_ai_updates2] | Current rank: &[combat_ai_old_combat_rating2] | Next rank: &[combat_ai_next_rank2])`
+			`	Special Updates: &[combat_ai_installed_combat3] +&[combat_ai_updates3] | Current rank: &[combat_ai_old_combat_rating3] | Next rank: &[combat_ai_next_rank3])`
+			` `
+			`AI Database update complete!`
+				decline
+			label "delay1"
+			branch "delay max1"
+				"combat_ai_needed_xp1" == 2850
+			label "delay not max1"
+			action
+				"combat_ai_installed_combat1" --
+				"combat_ai_updates1" ++
+				"combat_ai_old_combat_rating1" -= "combat_ai_needed_xp1"
+				"combat_ai_needed_xp1" -= 150
+			``
+				decline
+			label "delay max1"
+			action
+				"combat_ai_installed_combat1" --
+				"combat_ai_updates1" ++
+				"combat_ai_old_combat_rating1" -= "combat_ai_needed_xp1"
+			``
+				decline
+			label "delay2"
+			branch "delay max2"
+				"combat_ai_needed_xp2" == 6650
+			label "delay not max2"
+			action
+				"combat_ai_installed_combat2" --
+				"combat_ai_updates2" ++
+				"combat_ai_old_combat_rating2" -= "combat_ai_needed_xp2"
+				"combat_ai_needed_xp2" -= 350
+			``
+				decline
+			label "delay max2"
+			action
+				"combat_ai_installed_combat2" --
+				"combat_ai_updates2" ++
+				"combat_ai_old_combat_rating2" -= "combat_ai_needed_xp2"
+			``
+				decline
+			label "delay3"
+			branch "delay max3"
+				"combat_ai_needed_xp3" == 10450
+			label "delay not max3"
+			action
+				"combat_ai_installed_combat3" --
+				"combat_ai_updates3" ++
+				"combat_ai_old_combat_rating3" -= "combat_ai_needed_xp3"
+				"combat_ai_needed_xp3" -= 550
+			``
+				decline
+			label "delay max3"
+			action
+				"combat_ai_installed_combat3" --
+				"combat_ai_updates3" ++
+				"combat_ai_old_combat_rating3" -= "combat_ai_needed_xp3"
+			``
+				decline
+
+
+
+# mission 3: # replaced: <conditions>, <basic>, <advanced>, <special>
+mission "combat_ai_lost"
+	non-blocking 
+	repeat
+	invisible
+	landing
+	to offer
+		has "combat_ai_start: declined"
+		"combat_ai_fresh_start_update" == 1
+		not "combat.ai.declined"
+		"combat.ai.activated" == 1
+		or
+			not "outfit (flagship installed): combat_ai_core"
+<conditions>
+	on offer
+		conversation
+			label "start"
+			scene "outfit/unq_combat_ai"
+			`AI data LOST! Installing combat AI data to flagship...`
+			label "checkcore"
+			branch "precheck basic_outfit_space"
+				"outfit (flagship installed): combat_ai_core" == 1
+			action
+				outfit "combat_ai_core" 1
+			`	restored lost data...core`
+				goto "checkcore"	
+<basic>
+<advanced>
+<special>
+			label "preend"
+			branch "end"
+				"combat_ai_counter" == 0
+			`	restored &[combat_ai_counter] x Special: Pressure Hull`
+			label "end"
+			`AI restored!`
+				decline
+
+
+# mission 4: # replaced: <basic>, <advanced>, <special>
+mission "combat_ai_new_update"
+	non-blocking 
+	repeat
+	invisible
+	landing
+	to offer
+		"combat_ai_fresh_start_update" != 1
+		"outfit (flagship installed): combat_ai_core" > 0
+		not "combat.ai.declined"
+		"combat.ai.activated" == 1
+	on offer
+		"combat_ai_fresh_start_update" = 1
+		conversation
+			label "start"
+			scene "outfit/unq_combat_ai"
+			`Plugin Combat.AI got updated! Due to changes, the experience and outfits reset now!`
+			label "checkcore"
+			branch "check basic_outfit_space"
+				"outfit (flagship installed): combat_ai_core" == 0
+			action
+				outfit "combat_ai_core" -1
+			branch "checkcore"	
+<basic>
+<advanced>
+<special>
+			label "end"
+			`Done!`
+				decline
+
+# mission 5:
+mission "combat_ai_update_activated_status"
+	non-blocking 
+	invisible
+	landing
+	to offer
+		not "combat.ai.declined"
+		not "combat.ai.activated"
+	on offer
+		"combat.ai.activated" = 1
+		fail
+
+# substitutions
+substitutions
+	"<combatai_rating>" "0 - harmless"
+		"combat rating" >= 0
+		"combat rating" < 3
+	"<combatai_rating>" "1 - mostly harmless"
+		"combat rating" >= 3
+		"combat rating" < 7
+	"<combatai_rating>" "2 - not entirely helpless"
+		"combat rating" >= 7
+		"combat rating" < 20
+	"<combatai_rating>" "3 - borderline competent"
+		"combat rating" >= 20
+		"combat rating" < 55
+	"<combatai_rating>" "4 - almost dangerous"
+		"combat rating" >= 55
+		"combat rating" < 148
+	"<combatai_rating>" "5 - moderately intimidating"
+		"combat rating" >= 148
+		"combat rating" < 403
+	"<combatai_rating>" "6 - not to be trifled with"
+		"combat rating" >= 403
+		"combat rating" < 1097
+	"<combatai_rating>" "7 - seasoned fighter"
+		"combat rating" >= 1097
+		"combat rating" < 2981
+	"<combatai_rating>" "8 - respected enemy"
+		"combat rating" >= 2981
+		"combat rating" < 8103
+	"<combatai_rating>" "9 - force to be reckoned with"
+		"combat rating" >= 8103
+		"combat rating" < 22026
+	"<combatai_rating>" "10 - fearsome scrapper"
+		"combat rating" >= 22026
+		"combat rating" < 59874
+	"<combatai_rating>" "11 - formidable adversary"
+		"combat rating" >= 59874
+		"combat rating" < 162755
+	"<combatai_rating>" "12 - dread warrior"
+		"combat rating" >= 162755
+		"combat rating" < 442413
+	"<combatai_rating>" "13 - veteran battle-lord"
+		"combat rating" >= 442413
+		"combat rating" < 1202604
+	"<combatai_rating>" "14 - legendary foe"
+		"combat rating" >= 1202604
+		"combat rating" < 3269017
+	"<combatai_rating>" "15 - war-hungry lunatic"
+		"combat rating" >= 3269017
+		"combat rating" < 8886111
+	"<combatai_rating>" "16 - absurdly bloodthirsty"
+		"combat rating" >= 8886111
+		"combat rating" < 24154953
+	"<combatai_rating>" "17 - terror of the galaxy"
+		"combat rating" >= 24154953
+		"combat rating" < 65659969
+	"<combatai_rating>" "18 - inconceivably destructive"
+		"combat rating" >= 65659969
+		"combat rating" < 178482301
+	"<combatai_rating>" "19 - agent of mass extinction"
+		"combat rating" >= 178482301
+		"combat rating" < 485165195
+	"<combatai_rating>" "20 - genocidal maniac"
+		"combat rating" >= 485165195
+		"combat rating" < 1318815734
+	"<combatai_rating>" "1 - destroyer of worlds"
+		"combat rating" >= 1318815734

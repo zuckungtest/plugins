@@ -1,4 +1,0 @@
-automata.destruction.0percent
-author:
-	zuckung 
-	https://github.com/zuckung/endless-sky-plugins

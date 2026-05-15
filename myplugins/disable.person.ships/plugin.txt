@@ -1,4 +1,0 @@
-name "disable.person.ships"
-about "Disables all person ships. See the README for details."
-authors
-	"zuckung"

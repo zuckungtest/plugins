@@ -1,0 +1,12 @@
+krita hsv
+yellow 50 50 0
+red 0 50 0
+green 110 100 0
+blue 225 50 0
+violet 300 50 0
+orange 40 100 0
+
+https://www.flamingtext.com/logo/Design-Princess-Leia?fillTextType=0&fillTextColor=%23ffffff
+color 0086ff
+360x61 fontsize 53 for flareplay
+XXx40 fontsize 28 for subtext
