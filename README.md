@@ -594,10 +594,10 @@ changed icon.png<br>
 <img src="myplugins/better.starts/icon.png" height="100">
 <img src="https://raw.githubusercontent.com/zuckungtest/statistics/master/pics/better.starts.png" width="130" height="20">
 
-[<img src="https://img.shields.io/badge/download_zip-8A2BE2">](https://github.com/zuckungtest/plugins/releases/download/v1.0.5-better.starts/better.starts.zip) 
-<img src="https://img.shields.io/badge/v1.0.5-8A2BE2"> 
-<img src="https://img.shields.io/badge/N/A-8A2BE2"> 
-<img src="https://img.shields.io/badge/N/A-8A2BE2"> 
+[<img src="https://img.shields.io/badge/download_zip-8A2BE2">](https://github.com/zuckungtest/plugins/releases/download/v1.0.6-better.starts/better.starts.zip) 
+<img src="https://img.shields.io/badge/v1.0.6-8A2BE2"> 
+<img src="https://img.shields.io/badge/804.25_kb-8A2BE2"> 
+<img src="https://img.shields.io/badge/2025--10--24-8A2BE2"> 
 [<img src="https://img.shields.io/badge/older_versions-8A2BE2">](https://github.com/zuckungtest/plugins/releases?q=better.starts-&expanded=true) 
 [<img src="https://img.shields.io/badge/view_files-8A2BE2">](https://github.com/zuckungtest/plugins/tree/main/myplugins/better.starts/)
 [<img src="https://img.shields.io/badge/view_images_[%imagmdamount%]-8A2BE2">](res/imagemd/better.starts.md)<br>
