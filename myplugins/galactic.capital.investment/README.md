@@ -1,0 +1,99 @@
+### galactic.capital.investment <br>
+<br>
+Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space.<br>
+<br>
+Job board investments:(if enabled)<br>
+1 million = 274 credits daily (12% chance) (10% interest p.a.)(unlocked by a mission)<br>
+5 million = 1,520 credits daily (10% chance) (11% interest p.a.)<br>
+10 million = 3,287 credits daily (8% chance) (12% interest p.a.)<br>
+50 million = 17,808 credits daily (6% chance) (13% interest p.a.)<br>
+100 million = 38,356 credits daily (4% chance) (14% interest p.a.)<br>
+1 billion = 410,958 credits daily (2% chance) (15% interest p.a.)(unlocked by a mission chain)<br>
+<br>
+Job board bank account, always available:<br>
+Deposit and withdraw from your bank account (4% interest p.a.)<br>
+Deposit and withdraw from your family trust, accessible by all your pilots(0% p.a.)<br>
+Stock trading(10 stocks, quarterly dividend payout of 3% (12% p.a. of changing values))<br>
+Sell investments at 10% conversion rate<br>
+Set up the bank account interest as a daily cash payout<br>
+Enable and disable the investment jobs/missions<br>
+<br>
+<br>
+<br>
+Changelog:<br>
+<br>
+2026-03-08<br>
+fixed stock buying 10k (reported by CodeMagic)<br>
+<br>
+2026-02-22<br>
+added stock selling/buying of 100k and 1m<br>
+<br>
+2025-11-02<br>
+fixed stock selling bug (reported by Glittering_Pea2514)<br>
+fixed typos (by Kassandra Haruki)<br>
+<br>
+2025-10-31<br>
+added more info about cash transfer to bank deposit/withdrw (reported by mikeloeven)<br>
+added stock trading<br>
+<br>
+2025-08-16<br>
+fixed sell investment gives too much credits (reported by NordicRest)<br>
+added deposit/withdraw submenu to banking/family trust (requested by JulietDeltaSmirnoff)<br>
+added 1 billion deposit/withdraw to banking/family trust(requested by JulietDeltaSmirnoff)<br>
+changed investment accept to direct failing instead of 'on daily'<br>
+<br>
+2025-06-07<br>
+recolored the jobs purple<br>
+<br>
+2025-06-05<br>
+colored the jobs<br>
+added series<br>
+<br>
+2025-05-19<br>
+typo fixes by snoogles<br>
+icon@2x, plugintxt changes<br>
+<br>
+2025-03-20<br>
+replaced colony ship sprite (new one created by 1010todd)<br>
+added the option to enable/disable job board investments/missions globally<br>
+<br>
+2025-02-14<br>
+added normal banking with deposit and withdrawal to the job board(4% interest)<br>
+added family trust banking, transfer money between pilots<br>
+added investment selling<br>
+halfed investment yield, and reduced chance for jobs<br>
+upscaled colony ship image<br>
+<br>
+2024-10-29<br>
+fixed wrong outfitter at planet Sapphire<br>
+added @2x images<br>
+renamed files to be unique<br>
+<br>
+2024-07-13<br>
+removed the need to land on the same planet after accepting an investment job<br>
+text corrections<br>
+<br>
+2024-06-07<br>
+text corrections (thx to TheGiraffe3)<br>
+<br>
+2024-04-05<br>
+removed duplicate pngs<br>
+resized land jpg<br>
+<br>
+2024-03-31<br>
+fixed some errors<br>
+changed scene pngs to jpg<br>
+<br>
+2024-03-20<br>
+changed icon<br>
+added 5 new conversation scenes<br>
+added 9-mission-chain to get credits for a planet colonization<br>
+added unique trophy outfit at the end of the chain<br>
+added a new rare repeatable job after the colonization chain<br>
+<br>
+2023-10-17<br>
+added plugin.txt<br>
+<br>
+2023-08-25<br>
+added pirate planets as mission source<br>
+moved investment missions from spaceport mission to job board<br>

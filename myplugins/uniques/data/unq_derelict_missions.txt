@@ -1,0 +1,686 @@
+# mission "buy advanced sanner"
+# mission "derelict sospi"
+# mission "derelict sospi swap"
+# mission "derelict sadr"
+# mission "derelict sadr swap"
+# mission "derelict orbona"
+# mission "derelict orbona swap"
+# mission "derelict found north"
+# mission "derelict found pirate"
+# mission "derelict found core"
+# mission "derelict found south"
+# conversation "boarding a derelict"
+# mission "unq_korsmanath_1"
+# mission "unq_korsmanath_2"
+
+
+
+mission "buy advanced sanner"
+	invisible
+	outfitter
+	source "Oblivion"
+	to offer
+		"credits" > 100000
+		random < 10
+	on offer
+		conversation
+			scene "scene/derelict_outfitter"
+			`After entering the outfitter, you go to the terminals where you go through the inventory lists. In a workshop to the side you see a young woman jumping up from her work cheering.`
+			`"What's the reason for the good mood?" you ask.`
+			`"I've just finished working on a new type of scanner. It's a highly experimental scanner for detecting shipwrecks that have been floating around for years or decades, cold and so far undetectable. I'm hoping to use it to finance my own small workshop. At the moment I've just rented this little workspace."`
+			`You think about the possibilities of this type of scanner. There are certainly countless treasures floating around out there in the vastness of space, unnoticed by the thousands of ships that continually cross these systems. Do you want to try to buy the scanner from her?`
+			choice
+				`	offer her 50.000 credits`
+					goto buyscanner50
+				`	offer her 100.000 credits`
+					goto buyscanner100
+				`	that scanner probably won't work anyway`
+					goto dontbuyscanner
+			label buyscanner50
+			scene "scene/derelict_outfitter"
+			action
+				payment -50000
+			`The young engineer is completely amazed by your offer and immediately agrees. A quick credit transfer later, she hands you the device and gives you some instructions on how to connect the scanner to your ship's system.`
+				decline
+			label buyscanner100
+			scene "scene/derelict_outfitter"
+			action
+				payment -100000
+			`The young engineer is pleasantly surprised by your offer and falls into your arms.`
+			`"With this amount I can afford my workshop! You can't imagine how long I've been saving for it."`
+			`A quick credit transfer later, she hands you the device and gives you some instructions on how to connect the scanner to your ship's system.`
+				decline
+			label dontbuyscanner
+			scene "scene/derelict_outfitter"
+			`You congratulate her on her success and then say goodbye. If you change your mind, maybe you can come back later.`
+				defer
+	on decline
+		event "remove derelict fleets"
+		outfit "Derelict Scanner" 1
+
+
+mission "derelict sospi"
+	landing
+	invisible
+	to offer
+		has "outfit: Derelict Scanner"
+	to complete
+		never
+	on enter "Sospi"
+		dialog
+			`When you enter the Sospi system, you start the usual system scan, expecting nothing special. But this time the results are strange. It looks like there are three derelict ships orbiting the star. You should investigate that.`
+	npc board
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Sospi"
+		fleet
+			names "civilian"
+			cargo 0
+			variant 1
+				"Argosy (wreck)" 3
+		conversation
+			scene "scene/dark_ship01"
+			`The ships are badly damaged, and you find lots of mummified corpses. It seems like the crews got killed by some kind of radiation. Maybe a very heavy coronal mass ejection surprised the crew while refueling close to the star. A few hours later the basic systems work again. These ships are unusually good equipped, they even have jump drives. You should capture them and land on the nearest human planet for a repair and to find out more about them.`
+
+
+mission "derelict sospi swap"
+	landing
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		has "ship model: Argosy (wreck)"
+	on offer
+		take ship "Argosy (wreck)"
+			count 3
+		give ship "Argosy (Explorer)"
+			count 3
+		conversation
+			scene "scene/space_agency01"
+			`After landing, the repair of the three argosy wrecks begins. Meanwhile, you check the ship identifications at the local space administration.`
+			`Apparently the Argosys are 180 years old and were part of an expedition from a government agency called 'Explorer Corps'. Their disappearance was unfortunate and the beginning of 20-year break for manned space exploration beyond Republic space.`
+			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ships now belong to you.`
+				decline
+
+
+mission "derelict sadr"
+	landing
+	invisible
+	to offer
+		has "outfit: Derelict Scanner"
+	to complete
+		never
+	on enter "Sadr"
+		dialog
+			`When you enter the Sadr system, you start the usual system scan, expecting nothing special. But this time the results are strange. It looks like there is a derelict ship orbiting the star. You should investigate that.`
+	npc board
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Sadr"
+		fleet
+			names "civilian"
+			cargo 0
+			variant 1
+				"Dromedary (wreck)" 1
+		conversation
+			scene "scene/dark_ship02"
+			`The Dromedary is badly damaged, and you find lots of mummified corpses. There are traces of a heavy space battle, holes in the hull, also a debris field. Most of the crew died by the atmosphere loss. Maybe the Dromedary fought another big ship? Most systems still work after a short repair, the reactivated android crew helped a lot. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+
+
+mission "derelict sadr swap"
+	landing
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		has "ship model: Dromedary (wreck)"
+	on offer
+		take ship "Dromedary (wreck)"
+		give ship "Dromedary"
+		conversation
+			scene "scene/space_agency02"
+			`After landing, the repair of the Dromedary wreck begins. Meanwhile, you check the ship identifications at the local space administration.`
+			`Apparently the Dromedary is 120 years old and transported trade goods for a company, when it disappeared. A search expedition was active for several months. With your information the space administration knows now that the expedition searched in the wrong systems.`
+			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ship now belongs to you.`
+				decline
+
+
+mission "derelict orbona"
+	landing
+	invisible
+	to offer
+		has "outfit: Derelict Scanner"
+	to complete
+		never
+	on enter "Orbona"
+		dialog
+			`When you enter the Orbona system, you start the usual system scan, expecting nothing special. But this time the results are strange. It looks like there is a derelict ship orbiting the star. You should investigate that.`
+	npc board
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Orbona"
+		fleet
+			names "republic capital"
+			cargo 0
+			variant 1
+				"Carrier (wreck)" 1
+		conversation
+			scene "scene/dark_ship03"
+			`The Navy Carrier is badly damaged, and you find lots of mummified corpses. There is a big hole at one side, and it looks like something crashed into the Carrier, maybe an asteroid? Most of the crew died by the atmosphere loss. After a short repair you manage to get the energy and engine systems running. You should capture it and land on the nearest human planet for a more intense repair and to find out more about it.`
+
+
+mission "derelict orbona swap"
+	landing
+	invisible
+	source
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+	to offer
+		has "ship model: Carrier (wreck)"
+	on offer
+		take ship "Carrier (wreck)"
+		give ship "Carrier"
+		conversation
+			scene "scene/space_agency03"
+			`After landing, the repair of the Carrier wreck begins. Meanwhile, you check the ship identifications at the local space administration.`
+			`Apparently the Carrier is 30 years old and patrolled the border systems, when it disappeared. The Republic's secret service attributed the carrier's disappearance to an incident with a pirate gang that was active at that time.`
+			`The space administration is very grateful for the information and confirms, according to the salvage law, that the ship now belongs to you.`
+				decline
+
+
+mission "derelict found north"
+	non-blocking
+	invisible
+	repeat
+	entering
+	deadline 4
+	destination "Earth"
+	source
+		system
+			"Fingol"
+			"Ipsing"
+			"Limen"
+			"Lolami"
+			"Nocte"
+			"Orbona"
+			"Regulus"
+			"Sospi"
+			"Terminus"
+			"Eteron"
+			"Fala"
+			"Gacrux"
+			"Mizar"
+			"Mora"
+			"Muphrid"
+			"Rigel"
+			"Volax"
+			"Aspidiske"
+			"Algieba"
+			"Procyon"
+			"Menkalinan"
+			"Mirzam"
+	to offer
+		random < 5
+		has "outfit (flagship installed): Derelict Scanner"
+	to complete
+		never
+	npc
+		government "Pirate"
+		personality entering nemesis vindictive staying plunders
+		fleet "pirate raid" 2
+	npc board
+		government "Derelict (Boardable)"
+		fleet "Derelict Northern"
+		on encounter
+			dialog "Your derelict scanner detects a ship..."
+		on board
+		conversation "boarding a derelict"
+
+
+mission "derelict found pirate"
+	non-blocking
+	invisible
+	repeat
+	entering
+	deadline 4
+	destination "Earth"
+	source
+		system
+			"Atik"
+			"Gorvi"
+			"Tortor"
+			"Unagi"
+			"Danoa"
+			"Durax"
+			"Hatysa"
+			"Mintaka"
+			"Oblate"
+			"Fumalsamakah"
+			"Thuban"
+			"Cardax"
+			"Hassaleh"
+			"Sumar"
+			"Rajak"
+			"Ultima Thule"
+	to offer
+		random < 5
+		has "outfit (flagship installed): Derelict Scanner"
+	to complete
+		never
+	npc
+		government "Pirate"
+		personality entering nemesis vindictive staying plunders
+		fleet "pirate raid" 2
+	npc board
+		government "Derelict (Boardable)"
+		fleet "Derelict Pirate"
+		on encounter
+			dialog "Your derelict scanner detects a ship..."
+		on board
+		conversation "boarding a derelict"
+
+
+mission "derelict found core"
+	non-blocking
+	invisible
+	repeat
+	entering
+	deadline 4
+	destination "Earth"
+	source
+		system
+			"Gamma Cassiopeiae"
+			"Kugel"
+			"Acamar"
+			"Persian"
+			"Moktar"
+	to offer
+		random < 5
+		has "outfit (flagship installed): Derelict Scanner"
+	to complete
+		never
+	npc
+		government "Pirate"
+		personality entering nemesis vindictive staying plunders
+		fleet "pirate raid" 2
+	npc board
+		government "Derelict (Boardable)"
+		fleet "Derelict Core"
+		on encounter
+			dialog "Your derelict scanner detects a ship..."
+		on board
+		conversation "boarding a derelict"
+
+
+mission "derelict found south"
+	non-blocking
+	invisible
+	repeat
+	entering
+	deadline 4
+	destination "Earth"
+	source
+		system
+			"Boral"
+			"Eber"
+			"Hintar"
+			"Orvala"
+			"Sadr"
+			"Ildaria"
+			"Alnasl"
+			"Alpha Arae"
+			"Beta Lupi"
+			"Eltanin"
+			"Holeb"
+			"Lesath"
+			"Lurata"
+			"Tais"
+			"Wei"
+			"Zubenelgenubi"
+			"Naper"
+			"Umbral"
+			"Minkar"
+	to offer
+		random < 5
+		has "outfit (flagship installed): Derelict Scanner"
+	to complete
+		never
+	npc
+		government "Pirate"
+		personality entering nemesis vindictive staying plunders
+		fleet "pirate raid" 2
+	npc board
+		government "Derelict (Boardable)"
+		fleet "Derelict Southern"
+		on encounter
+			dialog "Your derelict scanner detects a ship..."
+		on board
+		conversation "boarding a derelict"
+
+
+conversation "boarding a derelict"
+	`You board the ship and look around its derelict hull, which appears to be in fairly stable condition. You could risk repairing it for a greater profit, or you could salvage what you can from the ship and leave the rest.`
+	choice
+		`	(Salvage the ship.)`
+			goto salvage
+		`	(Attempt to repair the ship.)`
+	`	Deciding to go for the bigger score you attempt to repair the ship.`
+	choice
+		`	(Repair the engines first.)`
+			goto engines
+		`	(Repair the hull first.)`
+			goto hull
+		`	(Repair the power first.)`
+	branch powersurge
+		random < 80
+	`	With a few simple repairs you manage to get the ship's power systems operational and running smoothly.`
+	choice
+		`	(Repair the engines next.)`
+			goto engines(p)
+		`	(Repair the hull next.)`
+			goto hull(p)
+	label hull
+	branch crumple
+		random < 15
+	`	It takes a while but you manage to stabilize the ship's hull. While doing so you managed to find and fix some broken wiring embedded in the hull, which could have caused a powersurge.`
+	choice
+		`	(Repair the engines next.)`
+			goto engines(h)
+		`	(Repair the power next.)`
+			goto power(h)
+	label hull(e)
+	branch crumple
+		random < 45
+	`	It takes a while but you manage to stabilize the ship's hull. While doing so you managed to find and fix some broken wiring embedded in the hull, which could have caused a powersurge.`
+	choice
+		`	(Repair the power.)`
+			goto power(eh)
+		`	(Flee the ship for fear my repairs have made the ship more dangerous.)`
+			goto flee
+	label hull(p)
+	branch crumple
+		random < 25
+	`	It takes a while but you manage to stabilize the ship's hull. While doing so you managed to find and fix some broken wiring embedded in the hull, which could have caused a powersurge.`
+	choice
+		`	(Repair the engines.)`
+			goto engines(hp)
+		`	(Flee the ship for fear my repairs have made the ship more dangerous.)`
+			goto flee
+	label hull(ep)
+	branch crumple
+		random < 75
+	`	It takes a while but you manage to stabilize the ship's hull. While doing so you managed to find and fix some broken wiring embedded in the hull, which could have caused a powersurge.`
+	`	With the repairs finished you head to the cockpit to see if the ship starts without exploding. Prepared to bolt for the airlock should things go wrong, you start the ship.`
+	branch fail
+		random < 40
+	`	The ship thrums to life. With bated breath you wait for the sound of some system exploding, but nothing happens. Success! The ship is yours.`
+		goto success
+	label engines
+	branch misfire
+		random < 60
+	`	As you are fixing the engine systems a valve bursts open. Luckily the secondary valve is mechanical and doesn't need power, allowing it to close itself automatically and prevent the coolant from forcefully spraying out. With more caution, you finish up your repairs of the engines.`
+	choice
+		`	(Repair the hull next.)`
+			goto hull(e)
+		`	(Repair the power next.)`
+			goto power(e)
+	label engines(h)
+	branch misfire
+		random < 60
+	`	As you are fixing the engine systems a valve bursts open. Luckily the secondary valve is mechanical and doesn't need power, allowing it to close itself automatically and prevent the coolant from forcefully spraying out. With more caution, you finish up your repairs of the engines.`
+	choice
+		`	(Repair the power.)`
+			goto power(eh)
+		`	(Flee the ship for fear my repairs have made the ship more dangerous.)`
+			goto flee
+	label engines(p)
+	`	As you are fixing the engine systems a valve bursts open. Luckily you restored power, allowing the secondary valve to close itself automatically and prevent the coolant from forcefully spraying out. With more caution, you finish up your repairs of the engines.`
+	choice
+		`	(Repair the hull.)`
+			goto hull(ep)
+		`	(Flee the ship for fear my repairs have made the ship more dangerous.)`
+			goto flee
+	label engines(hp)
+	`	As you are fixing the engine systems a valve bursts open. Luckily you restored power, allowing the secondary valve to close itself automatically and prevent the coolant from forcefully spraying out. With more caution, you finish up your repairs of the engines.`
+	`	With the repairs finished you head to the cockpit to see if the ship starts without exploding. Prepared to bolt for the airlock should things go wrong, you start the ship.`
+	branch fail
+		random < 5
+	`	The ship thrums to life. With bated breath you wait for the sound of some system exploding, but nothing happens. Success! The ship is yours.`
+		goto success
+	label power(h)
+	branch powersurge
+		random < 5
+	`	With a few simple repairs you manage to get the ship's power systems operational and running smoothly.`
+	choice
+		`	(Repair the engines.)`
+			goto engines(hp)
+		`	(Flee the ship for fear my repairs have made the ship more dangerous.)`
+			goto flee
+	label power(e)
+	branch powersurge
+		random < 55
+	`	With a few simple repairs you manage to get the ship's power systems operational and running smoothly.`
+	choice
+		`	(Repair the hull.)`
+			goto hull(ep)
+		`	(Flee the ship for fear my repairs have made the ship more dangerous.)`
+			goto flee
+	label power(eh)
+	branch powersurge
+		random < 15
+	`	With a few simple repairs you manage to get the ship's power systems operational and running smoothly.`
+	`	With the repairs finished you head to the cockpit to see if the ship starts without exploding. Prepared to bolt for the airlock should things go wrong, you start the ship.`
+	branch fail
+		random < 25
+	`	The ship thrums to life. With bated breath you wait for the sound of some system exploding, but nothing happens. Success! The ship is yours.`
+		goto success
+	label powersurge
+	`	With a few simple repairs you manage to get the ship's power systems operational. Briefly. The power shuts down again with a violent vibration shuddering through the ship. You quickly run back to your ship before the ship breaks apart.`
+		depart
+	label crumple
+	`	As you are patching up a segment of hull you notice that a deformation in it is slowly expanding. To make matters worse, this is a structurally essential part of the hull. You quickly run back to your ship before the ship breaks apart.`
+		depart
+	label misfire
+	`	As you are fixing the engine systems a valve bursts open. With no power the secondary valve cannot close itself off, letting coolant uncontrollably fly into the hull. The force of the liquid sends a violent vibration shuddering through the ship. You quickly run back to your ship before the ship breaks apart.`
+		depart
+	label flee
+	action
+		payment 7500
+	`	Wary of your own foolish repairs you decide to leave the ship alone. However, you did manage to hang onto a little bit of scrap worth <payment> you found during your repairs.`
+	`	Your fears seem to be warranted as the ship begins to falls apart the moment you detach.`
+		depart
+	label fail
+	`	As it begins to thrum to life, a loud explosion rocks the ship!`
+	choice
+		`	(Run.)`
+	`	You start running through the tight corridors of the ship. Objects are tumbling everywhere, and more explosions threaten to sweep you off your feet.`
+	choice
+		`	(Run into the airlock.)`
+			goto run
+		`	(Dive for the airlock.)`
+			goto dive
+		`	(Slide into the airlock.)`
+	`	As you slide across the floor, explosions erupt on both sides of you, and you're sure that you look like an action hero as you careen through the airlock to safety. Having narrowly escaped death and not wishing to chance it, you quickly depart.`
+		depart
+	label run
+	`	As you run towards the airlock, explosions erupt on both sides of you, and you're sure that you look like an action hero as you barge through the airlock to safety. Having narrowly escaped death and not wishing to chance it, you quickly depart.`
+		depart
+	label dive
+	`	As you dive towards the airlock, explosions erupt on both sides of you, and you're sure that you look like an action hero as you tuck and roll through the airlock to safety. Having narrowly escaped death and not wishing to chance it, you quickly depart.`
+		depart
+	label success
+	branch beacon
+		random < 15
+	branch virus
+		random < 5
+		"credits" > 1000000
+	action
+		payment 65000
+	`	Despite your best efforts to make the ship actually fly, it just won't. On the upside, now you have time to loot and pilfer some outfits from the ship as you please. Before leaving the cockpit you find a credit chip sitting on the controls worth <payment>.`
+		decline
+	label beacon
+	`	However, you notice a blinking light on the controls of the ship. You wonder what it could signal as you approach it, and once you get close enough you realize that it warns of the arrival of "hostile spacecraft" entering the system. The derelict must have been a pirate trap, and to make matters worse, the ship appears to be rigged to blow! You now have a pretty good guess at what you're dealing with as you race back to your ship.`
+		launch
+	label virus
+	action
+		payment -200000
+	`	However, moments later a screen lights up in the cockpit displaying something strange. Upon closer inspection you realize it's some form of malicious software, and it's attempting to hack into your ship!`
+	`	You race back to your ship, quickly launching and destroying the ship, but by the time you manage to destroy the virus it has already hacked into your bank account; your account reports a change in balance of <payment>.`
+		depart
+	label salvage
+	`	Deciding not to risk it you quickly scour the ship for valuable scrap and outfits.`
+	branch valuable
+		random < 40
+	action
+		payment 10000
+	`	Upon a brief inspection of the ship you find few valuables, only managing to salvage a meager <payment> from the ship.`
+		goto detonate
+	label valuable
+	branch rare
+		or
+			and
+				random < 25
+				or
+					not "derelict treasure map: ion cannons"
+					not "derelict family investment"
+			random < 5
+	action
+		payment 63000
+	`	Searching through the ship you find that it is quite valuable; you manage to salvage a substantial amount from the ship, worth <payment>.`
+		goto detonate
+	label rare
+	branch quest
+		or
+			not "derelict treasure map: ion cannons"
+			not "derelict family investment"
+	action
+		payment 475000
+	`	Hidden away under a panel you find a small box. Opening it reveals it is filled with <payment>.`
+		goto detonate
+	label quest
+	branch treasure
+		not "derelict treasure map: ion cannons"
+		or
+			random < 50
+			has "derelict family investment"
+	action
+		set "derelict family investment"
+	`	As you search the ship for anything valuable you find a large black case filled with 325,000 credits. Investigating further you find a text log next to the case, and you decide to take both of them with you.`
+		goto detonate
+	label treasure
+	action
+		set "derelict treasure map: ion cannons"
+		payment 26500
+	`	As you search the ship for anything valuable you find some kind of map tucked into a panel. It's easy to carry, allowing you time to further salvage a meager <payment> from the ship.`
+		goto detonate
+	label detonate
+	choice
+		`	(Detonate the ship and leave so that others can't loot it.)`
+		`	(Try and find a bit more salvage.)`
+			goto continued
+	`	Before you depart you detonate the ship to prevent any other derelict hunters from scouring the now empty ship.`
+		depart
+	label continued
+	branch unlucky
+		random < 75
+	action
+		payment 35000
+	`	You attempt to search the ship for more valuables and luckily find some extra salvage worth <payment>. However, the hull begins to creak and groan, prompting a hasty return to your ship.`
+	`	Not a moment too soon, as the ship begins to violently fall apart the moment your ship detaches.`
+		depart
+	label unlucky
+	branch pirate
+		random < 20
+	`	You attempt to search the ship for more valuables but to no avail. However, the hull begins to creak and groan, prompting a hasty return to your ship.`
+	`	Not a moment too soon, as the ship begins to violently fall apart the moment your ship detaches.`
+		depart
+	label pirate
+	`	You make your way to the cockpit in the hopes of finding any valuables. Initially finding nothing, you turn to leave and search more of the ship.`
+		goto beacon
+
+
+mission "unq_korsmanath_1"
+	"name" "The Derelict"
+	"description" "Find a derelict Korsmanath A'awoj in the Kor Ak'Mari system and board it."
+	landing
+	source "Setar Fort"
+	destination "Setar Fort"
+	waypoint "Kor Ak'Mari"
+	to offer
+		has "wanderers sestor done"
+		has "outfit: Derelict Scanner"
+	on offer
+		conversation
+			`While walking through the busy spaceport of <planet>, you find yourself wondering what stories the Korath must hold. How many lives they've lived, enduring endless wars, losing their home, and now adjusting to peace. What discoveries might they be making on the once-hostile worlds the Automata used to occupy?`
+			`As you drift deeper into thought, a familiar voice calls out across the crowd:`
+			`"<first>! <first>! It's great to see you again! I've learned so much and heard so many stories!"`
+			`You turn to see Rek, beaming with excitement. You greet him warmly, share a laugh, and the two of you head to a nearby diner. Over a meal, Rek eagerly recounts his latest adventures. He tells you that he's now fluent in Korathi, and that many Efreti have begun to admire his curiosity and courage.`
+			`"What stories have you heard?" you ask, lifting a spoonful of Korathi stew. Rek smirks knowingly. "I knew you'd ask that. But none of the Efreti scouts have managed to find the 'trophy' of this one." The word 'trophy' immediately piques your interest. Rek continues, "There's a massive derelict ship somewhere in Kor Ak'Mari far larger than an Echo-Galleon. Big enough to hold thousands of people. It hasn't flown since the Korath exile. They called it the Korsmanath A'awoj. The problem is, no one's been able to locate it. The scouts tried to trace it, but the signal always fades away." He chuckles. "Strange, isn't it? How something that huge could just disappear."`
+			`You recall seeing similar ships in the exile systems, vessels that could fight off entire pirate fleets, maybe even challenge the Quarg through sheer force. But for one to vanish entirely? That's a mystery too good to resist.`
+			`After finishing your meal and catching up with Rek, you make your decision.`
+			`"Rek," you say, "how would you feel about joining me in the search for the Korsmanath?"`
+			`His eyes light up. "I didn't think you'd ask! Of course I'll join you. It's about time we went on another adventure together."`
+			`With that, the two of you return to your ship and begin preparing for the journey ahead.`
+				accept
+	on waypoint
+		dialog `As you enter the Kor Ak'Mari system, your derelict scanner picks up an enormous object. You alter course and approach carefully. Soon, the colossal silhouette of the Korsmanath emerges from the shadows, a drifting giant, silent and lifeless. You move in closer, aligning your ship for boarding.`
+	npc board
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Kor Ak'Mari"
+		ship "unq uncap Korsmanath A'awoj (wreck)" "Seskerat"
+		to despawn
+			has "unq_korsmanath_1: done"
+		on board
+			conversation
+				`Exploring the interior of the ship leaves you and Rek both awestruck and uneasy. The Korsmanath is vast beyond comprehension, capable of creating new societies on uninhabited worlds, yet equally capable of destroying them. Its power is both inspiring and terrifying. For a moment, you can almost imagine what it felt like to live aboard this mothership, to command such strength, to feel untouchable.`
+				`Eventually, you reach what was once the engineering section. The systems are dead, and there's no jump drive in sight. Without one, there's no way to move this behemoth. Installing a new one will take more than just the two of you.`
+				`"Even if we got it running again," you say, "we'd never get it out of the system by ourselves. What do you think?"`
+				`Rek rubs his chin, then grins. "We'll need help. Let's head back to Setar Fort. I can rally some Efreti engineers while you secure a spare Jump Drive, if you don't already have one tucked away."`
+				`You nod in agreement. Together, you return to your ship, eager to bring this ancient titan back to life.`
+	on complete
+		conversation
+			`Back at Setar Fort, Rek reminds you not to linger. "You'll need to find that Jump Drive," he says. "I'll gather the Efreti engineers and prepare everything we'll need. Meet us here once you've got it." With that, Rek hurries off, already deep in thought about the restoration to come.`
+
+
+mission "unq_korsmanath_2"
+	"name" "The Derelict"
+	"description" "Return to the derelict Korsmanath A'awoj in the Kor Ak'Mari system and repair it."
+	source "Setar Fort"
+	to offer
+		has "unq_korsmanath_1: done"
+		has "outfit: Derelict Scanner"
+		has "outfit (cargo): Jump Drive"
+	destination "Setar Fort"
+	waypoint "Kor Ak'Mari"
+	on offer
+		conversation
+			`With the Jump Drive safely secured in your cargo hold, you make your way through the busy port in search of Rek. It doesn't take long to spot him, already surrounded by a small group of eager Efreti engineers. When he sees you, he waves excitedly.`
+			`"Perfect timing!" Rek says. "We're all ready. Let's not waste a moment, shall we?"`
+			`You nod, and together with Rek and his helpers, you load the equipment aboard your ship. Soon, you're en route to Kor Ak'Mari once more, ready to re-board the Korsmanath.`
+				accept
+	npc capture
+		government "derelict ship"
+		personality waiting derelict target mute
+		system "Kor Ak'Mari"
+		ship "unq Korsmanath A'awoj (wreck)" "Seskerat"
+		on board
+			outfit "Jump Drive" -2
+			outfit "Jump Drive" 1
+			conversation
+				`The boarding goes smoothly this time. Rek translates the Korathi inscriptions while the Efreti team installs the Jump Drive with practiced precision. A few of them begin wandering off to explore the ship, but you nudge Rek, and he reminds them to save their curiosity for later. There will be plenty of time to explore once the ship is safely back at Setar Fort.`
+				`"Hard to believe this will soon be part of my fleet," you say, gazing at the control panels.`
+				`Rek gives a wry smile. "Yes, quite something, isn't it? Just promise me you won't use it for war, or to repeat the Korath's mistakes."`
+				`Moments later, the Efreti signal that the installation is complete and the ship is ready for transit.`
+				`"We should escort it home," Rek suggests. "Make sure it arrives safely."`
+				`You agree, and after explaining the plan to the crew, you return to your ship, ready to escort the newly awakened Korsmanath back to Setar Fort.`
+	on complete
+		take ship "unq Korsmanath A'awoj (wreck)"
+		give ship "Korsmanath A'awoj (Jump)"
+		conversation
+			`Once you land, the Efreti waste no time. Dozens of them rush aboard the Korsmanath, armed with scanners, tools, and notebooks. Some snap photos, others take frantic notes. You can't help but smile, this is history being rediscovered.`
+			`"The ship's in remarkable condition," Rek says, watching proudly. "With luck, repairs should only take a few hours." His tone carries both pride and sadness.`
+			`"You okay, Rek?" you ask.`
+			`He nods slowly. "Yes, of course. It's just... a shame you can't stay longer."`
+			`You assure him that he can always reach out when needed, and you'll return. You talk for a while longer until one of the Efreti calls out that the restoration is complete.`
+			`"See you among the stars, my friend," Rek says as you prepare to depart. He waves, smiling.`
+			`Now, the Korsmanath is yours, fully functional and under your command. What you do with it next is entirely up to you.`

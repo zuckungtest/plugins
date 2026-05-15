@@ -1,0 +1,143 @@
+# 7 assisting wanderer
+
+# mission "Assisting Wanderer (Interceptor)"
+# mission "Assisting Wanderer (Light Warship)"
+# mission "Assisting Wanderer (Transport)"
+# mission "Assisting Wanderer (Light Freighter)"
+# mission "Assisting Wanderer (Medium Warship)"
+# mission "Assisting Wanderer (Heavy Freighter)"
+# mission "Assisting Wanderer (Heavy Warship)"
+
+
+
+mission "Assisting Wanderer (Interceptor)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Interceptor"
+		not attributes "automaton"
+	on offer
+		payment 50000
+		conversation
+			scene "scene/assisting10"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Wanderer (Light Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Light Warship"
+		not attributes "automaton"
+	on offer
+		payment 75000
+		conversation
+			scene "scene/assisting01"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Wanderer (Transport)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Transport" "Space Liner" 
+		not attributes "automaton"
+	on offer
+		payment 65000
+		conversation
+			scene "scene/assisting02"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Wanderer (Light Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Light Freighter"
+		not attributes "automaton"
+	on offer
+		payment 60000
+		conversation
+			scene "scene/assisting03"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Wanderer (Medium Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Medium Warship"
+		not attributes "automaton"
+	on offer
+		payment 85000
+		conversation
+			scene "scene/assisting04"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Wanderer (Heavy Freighter)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Heavy Freighter"
+		not attributes "automaton"
+	on offer
+		payment 80000
+		conversation
+			scene "scene/assisting05"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline
+
+
+mission "Assisting Wanderer (Heavy Warship)"
+	assisting
+	repeat
+	minor
+	destination "Earth"
+	to offer
+		random > 89
+	source
+		government "Wanderer"
+		category "Heavy Warship"
+		not attributes "automaton"
+	on offer
+		payment 100000
+		conversation
+			scene "scene/assisting06"
+			`When you repair the <origin>, the captain thanks you for your assistance and pays you <payment>.`
+				decline

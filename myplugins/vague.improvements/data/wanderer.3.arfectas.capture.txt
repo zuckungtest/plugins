@@ -1,0 +1,16 @@
+# after capturing the 3 wanderer defending arfectas, the normal mission pop up explaining the wanderer hate you now,
+# then this mission starts and fixes the reputation again, wanderes again love you
+
+
+
+mission "fix 2 arfectas stolen"
+	entering
+	invisible
+	destination "Earth"
+	to offer
+		has "Wanderers Pug Hostile: declined"
+	on offer
+		"reputation: Wanderer" = 100
+		"reputation: Pug" = 100
+		"reputation: Pug (Wanderer)" = 100
+		fail

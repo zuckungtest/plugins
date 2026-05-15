@@ -1,0 +1,39 @@
+### ship.merging
+<br>
+<br>
+This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship.<br>
+<br>
+There is a new landable alien ship in the new "Dent" system (near the wormhole to the Hai). There you can merge a ship and 3 base versions of that ship into a T1 ship with doubled attributes. Or 3 base versions and a T1 into a T2 with trippled stats. This goes up to T10 ships with 11 times the attributes. Basically you can reduce the amount of ships in your fleet. With 10x T10 ships you have the firepower and other stats of 110 ships of that type, while paying with 310 ships for it. Not cheap, but effective.<br>
+Reduce performance issues by reducing ship amounts or just make single ships more powerful. This plugin makes it possible.<br>
+(idea by unknown_rawrs)<br>
+<br>
+<br>
+Changelog:<br>
+<br>
+2026-04-28<br>
+update to 0.11.1<br>
+<br>
+2026-02-01<br>
+update to 0.11.0<br>
+<br>
+2025-10-26<br>
+update to 0.10.16<br>
+<br>
+2025-10-12<br>
+reversed ship order inside the job (as wished by Darcy Manoel)<br>
+added multiplication of outfits<br>
+added multiplicatiin of gun/turret/bay subnode definitions<br>
+added a scene to the upgrade mission<br>
+added some more limited ships for users of plugins like omnis<br>
+changed a few sentences on the first contact and added a unique gift<br>
+<br>
+2025-10-11<br>
+added ships "vyu-Ir", "Selii'mar" "Faes'mar", "Fetri'sei", "Subsidurial"<br>
+<br>
+2025-09-15<br>
+fix broken system link (thx to Kitteh)<br>
+fixed heat dissipation<br>
+<br>
+2025-08-09<br>
+initial release<br>
+

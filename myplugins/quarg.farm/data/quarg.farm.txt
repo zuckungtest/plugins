@@ -1,0 +1,241 @@
+# government "Quarg"
+# government "Quarg (Hai)"
+# government "Quarg (Kor Efret)"
+# government "Quarg (Gegno)"
+# government "Quarg (Secret)"
+# government "Quarg (Incipias)"
+# mission "Quarg Warning Saquerver"
+# system "Saquerver"
+# planet "Ver"
+# fleet "Quarg (Evil)"
+# fleet "Large Quarg (Evil)"
+# fleet "Quarg Utility (Evil)"
+# outfit "Stub"
+
+
+
+government "Quarg"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Hai)"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Kor Efret)"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Gegno)"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Incipias)"
+	atrocities
+		"Stub"
+
+
+government "Quarg (Evil)"
+	swizzle 0
+	color .88 .77 0
+	"display name" "Quarg"
+	"player reputation" -1000
+	"hostile hail" "hostile quarg"
+	"hostile disabled hail" "hostile quarg"
+	atrocities
+		"Stub"
+
+
+mission "Quarg Warning Saquerver"
+	landing
+	invisible
+	to complete
+		never
+	on enter "Saquerver"
+		dialog `When you enter the Saquerver system you receive a transmission: "Human, this is a restricted military system, leave immediately or we will attack. You are not welcome here."`
+		fail
+
+
+system "Saquerver"
+	pos -509 550
+	government "Quarg (Evil)"
+	arrival 600
+	habitable 600
+	belt 1345
+	haze _menu/haze-blackbody
+	fleet "Quarg (Evil)" 1000
+	fleet "Large Quarg (Evil)" 2000
+	fleet "Quarg Utility (Evil)" 3000
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock6-b
+		distance 392
+		period 88
+		object
+			sprite planet/europa
+			distance 190
+			period 22
+	object "Ver"
+		sprite planet/ocean4
+		distance 601
+		period 312
+	object
+		sprite planet/lava3-b
+		distance 1176
+		period 699
+	object
+		sprite planet/gas15
+		distance 2549
+		period 2310
+		object
+			sprite planet/dust5
+			distance 207
+			period 16
+		object
+			sprite planet/desert4
+			distance 376
+			period 32
+
+
+planet "Ver"
+	attributes quarg
+	landscape land/bwerner5
+	description `Ver is a military Quarg outpost for spying on the coalition.`
+	spaceport `The Quarg let you know that you aren't welcome here.`
+	bribe 0
+	security 0.9
+	tribute 1000
+		threshold 8000
+		fleet "Quarg (Evil)" 2
+
+
+fleet "Quarg (Evil)"
+	government "Quarg (Evil)"
+	names "quarg"
+	cargo 3
+	personality
+		forbearing opportunistic
+	variant
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Drake"
+	variant
+		"Quarg Wardragon"
+
+
+fleet "Large Quarg (Evil)"
+	government "Quarg (Evil)"
+	names "quarg"
+	cargo 1
+	personality
+		forbearing opportunistic
+	variant
+		"Quarg Wardragon" 2
+		"Quarg Wyvern"
+	variant
+		"Quarg Wardragon" 2
+	variant
+		"Quarg Wardragon" 2
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Lindwyrm"
+		"Quarg Wardragon"
+		"Quarg Drake"
+	variant
+		"Quarg Wardragon" 2
+		"Quarg Drake"
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Lindwyrm" 2
+		"Quarg Drake" 2
+	variant
+		"Quarg Wyvern" 3
+	variant
+		"Quarg Wyvern" 2
+		"Quarg Drake" 4
+	variant
+		"Quarg Hydra"
+		"Quarg Wyvern"
+		"Quarg Wardragon" 2
+	variant
+		"Quarg Hydra"
+		"Quarg Wyvern" 2
+
+
+
+fleet "Quarg Utility (Evil)"
+	government "Quarg (Evil)"
+	names "quarg"
+	cargo 1
+	personality
+		forbearing opportunistic
+	variant
+		"Quarg Guivre"
+		"Quarg Lindwyrm"
+		"Quarg Wardragon"
+	variant
+		"Quarg Guivre"
+		"Quarg Wardragon" 2
+	variant
+		"Quarg Guivre"
+		"Quarg Lindwyrm" 2
+	variant
+		"Quarg Guivre"
+		"Quarg Drake" 3
+	variant
+		"Quarg Guivre"
+		"Quarg Drake" 3
+	variant 2
+		"Quarg Guivre"
+		"Quarg Wyvern"
+		"Quarg Lindwyrm"
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern" 2
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern" 2
+		"Quarg Drake"
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern" 2
+		"Quarg Wardragon"
+	variant
+		"Quarg Guivre"
+		"Quarg Wardragon" 3
+	variant
+		"Quarg Guivre"
+		"Quarg Wardragon" 2
+		"Quarg Drake" 2
+	variant
+		"Quarg Guivre"
+		"Quarg Drake" 2
+		"Quarg Wardragon"
+	variant
+		"Quarg Guivre"
+		"Quarg Wyvern"
+		"Quarg Wardragon"
+		"Quarg Drake"
+	variant
+		"Quarg Guivre"
+		"Quarg Lindwyrm"
+		"Quarg Drake" 3
+
+
+
+outfit "Stub"
+	category "Power"
+	cost 100000000
+	thumbnail "outfit/quarg antimatter core"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 80
+	"heat generation" 20
+	"unplunderable" 1
+	description "Woot?"
