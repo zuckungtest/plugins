@@ -132,10 +132,9 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### additional.command.buttons <br>
 
 <br>
@@ -406,10 +405,10 @@ exchanged some of the button positions<br>
 
 initial release<br>
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -446,10 +445,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### automata.destruction.0percent
 
 <br>
@@ -517,10 +515,10 @@ changed readme<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -547,10 +545,9 @@ changed readme<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### automata.in.human.space
 
 <br>
@@ -602,10 +599,10 @@ reworked readme <br>
 changed icon.png<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -632,10 +629,9 @@ changed icon.png<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### better.starts <br>
 
 <br>
@@ -761,10 +757,10 @@ added Start Explorer to Remnant<br>
 added Start Explorer to Automata<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -799,10 +795,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### boss.loot<br>
 
 <br>
@@ -894,10 +889,10 @@ added fighters to every boss (thx to Kitteh)<br>
 initial release<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -939,10 +934,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### bunrodea.missions
 
 <br>
@@ -1162,10 +1156,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -1207,10 +1201,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### capturable.person.ships
 
 <br>
@@ -1428,10 +1421,10 @@ changed gamerules to prevent no spawning chance<br>
 initial release<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -1466,10 +1459,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### coalition.shopping
 
 <br>
@@ -1543,10 +1535,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -1582,10 +1574,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### combat.ai
 
 <br>
@@ -1791,10 +1782,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -1829,10 +1820,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### comets
 
 <br>
@@ -1890,10 +1880,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -1930,10 +1920,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### control.station
 
 <br>
@@ -2065,10 +2054,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -2104,10 +2093,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### disable.person.ships <br>
 
 <br>
@@ -2182,10 +2170,10 @@ added plugin.txt<br>
 
 added icon.png<br>
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -2212,10 +2200,9 @@ added icon.png<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### disable.spaceport.repeatables
 
 <br>
@@ -2318,10 +2305,10 @@ added the 3 pirate occupation missions<br>
 
 added icon.png<br>
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -2348,10 +2335,9 @@ added icon.png<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### expert.crew.members
 
 <br>
@@ -2536,10 +2522,10 @@ added 20 more crew members<br>
 
 initial release<br>
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -2581,10 +2567,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### flare.play<br>
 
 <br>
@@ -2640,10 +2625,10 @@ added flares to human government fleets<br>
 initial release<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -2685,10 +2670,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### galactic.capital.investment <br>
 
 <br>
@@ -2888,10 +2872,10 @@ added pirate planets as mission source<br>
 moved investment missions from spaceport mission to job board<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -2931,10 +2915,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### gegno.pirates
 
 <br>
@@ -3044,10 +3027,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -3083,10 +3066,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### hai.side.mission.unlocker
 
 <br>
@@ -3164,10 +3146,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -3194,10 +3176,9 @@ initial release<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### heavy.traffic
 
 <br>
@@ -3236,10 +3217,10 @@ removed mission from multiplying "Tourists out [0]" (reported by TGIF-41)<br>
 
 initial release (requested and tested by Lowry)<br>
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -3274,10 +3255,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### highrollers.ltd
 
 <br>
@@ -3323,10 +3303,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -3361,10 +3341,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### human.labels
 
 <br>
@@ -3446,10 +3425,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -3486,10 +3465,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### job.coloring <br>
 
 <br>
@@ -3553,10 +3531,10 @@ fixed followup missions not offering (reported by the114dragon)<br>
 initial release<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -3591,10 +3569,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### jump.gates
 
 <br>
@@ -3652,10 +3629,10 @@ text corrections (thx to TheGiraffe3)<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -3692,10 +3669,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### kestrel.unlocks
 
 <br>
@@ -3739,10 +3715,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -3769,10 +3745,9 @@ initial release<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### kor.efret.shipyard
 
 <br>
@@ -3958,10 +3933,10 @@ added new icon.png<br>
 reworked readme<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -3988,10 +3963,9 @@ reworked readme<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### landing.images
 
 <br>
@@ -4041,10 +4015,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -4086,10 +4060,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### landing.images.highres
 
 <br>
@@ -4141,10 +4114,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -4171,10 +4144,9 @@ initial release<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### licenses
 
 <br>
@@ -4244,10 +4216,10 @@ typo fixes(by snoggles)<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -4284,10 +4256,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### mission.helper
 
 <br>
@@ -4407,10 +4378,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -4445,10 +4416,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### more.arfectas <br>
 
 <br>
@@ -4494,10 +4464,10 @@ added support for more.boarding.missions<br>
 added plugin.txt<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -4533,10 +4503,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### more.boarding.missions <br>
 
 <br>
@@ -4720,10 +4689,10 @@ added 4 pirate boarding missions (outfit)<br>
 added icon and reworked readme<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -4765,10 +4734,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### more.person.ships
 
 <br>
@@ -4884,10 +4852,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -4924,10 +4892,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### no.more.mereti.mines
 
 <br>
@@ -4981,10 +4948,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -5011,10 +4978,9 @@ initial release<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### outfits.weapon.slot
 
 <br>
@@ -5058,10 +5024,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5097,10 +5063,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### paint.your.ships
 
 <br>
@@ -5146,10 +5111,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5184,10 +5149,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### planet.map
 
 <br>
@@ -5273,10 +5237,10 @@ added 4 new locations, with 2 new backgrounds<br>
 initial release<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5316,10 +5280,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### quarg.farm
 
 <br>
@@ -5393,10 +5356,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5432,10 +5395,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### ship.merging
 
 <br>
@@ -5515,10 +5477,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5553,10 +5515,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### show.reputation
 
 <br>
@@ -5632,10 +5593,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5671,10 +5632,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### snowfeather.robotics <br>
 
 <br>
@@ -5763,10 +5723,10 @@ added plugin.txt<br>
 
 removed remnant mission requirement<br>
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5803,10 +5763,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### space.fauna
 
 <br>
@@ -5862,10 +5821,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -5901,10 +5860,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### too.many.asteroids <br>
 
 <br>
@@ -5990,10 +5948,10 @@ updated to 0.10.1<br>
 added a python script which generates the asteroids.txt(in case I don't update this mod, everyone can do it in no time.)<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
@@ -6020,10 +5978,9 @@ added a python script which generates the asteroids.txt(in case I don't update t
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### tribute.republic
 
 <br>
@@ -6067,10 +6024,10 @@ initial release<br>
 
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -6105,10 +6062,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### uniques
 
 <br>
@@ -6416,10 +6372,10 @@ changed puny portrait<br>
 changed icon.png<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 <br>
@@ -6459,10 +6415,9 @@ screenshots(click to enlarge):<br>
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 ### vague.improvements
 
 <br>
@@ -6546,10 +6501,10 @@ added fw defense pact missions after FW war<br>
 initial release<br>
 
 
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 
