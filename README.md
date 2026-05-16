@@ -130,7 +130,7 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 >Reworks the main buttons ui on the lower right side. Made for the ANDROID version of ES. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -440,7 +440,7 @@ screenshots(click to enlarge):<br>
 >Modifies the self destruction chance of Sestor and Mereti ships to a value of 0.0 (0%). See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -537,7 +537,7 @@ changed readme<br>
 >Brings jump drive equipped automata into human space after the wanderer campaign. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -618,7 +618,7 @@ changed icon.png<br>
 >Adds several new start options with different ships, background stories, credits and debts. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -781,7 +781,7 @@ screenshots(click to enlarge):<br>
 >A series of dungeon-like boss encounters for a single ship. With loottables and weapon upgrade mechanism. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -917,7 +917,7 @@ screenshots(click to enlarge):<br>
 >Adds some missions and jobs to increase the Bunrodea reputation. The first mission is available after the vanilla first contact mission. Doing more jobs will allow you to get access to all their planets and ships. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -1181,7 +1181,7 @@ screenshots(click to enlarge):<br>
 >Makes person ships capturable. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -1436,7 +1436,7 @@ screenshots(click to enlarge):<br>
 >Adds all Coalition/Heliarch/Lunarium outfits and ships to 'Far Home' in the 'Homeward' system. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -1548,7 +1548,7 @@ screenshots(click to enlarge):<br>
 >Offers a mission to install a combat AI, which increases your ship stats based on combat experience. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -1791,7 +1791,7 @@ screenshots(click to enlarge):<br>
 >Adds 10 different comet types, as rare spawns to changing systems. These comets are minable and high profitable. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -1888,7 +1888,7 @@ screenshots(click to enlarge):<br>
 >Adds a station to the Sol system that offers administrative functions started by the job board. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -2058,7 +2058,7 @@ screenshots(click to enlarge):<br>
 >Disables all person ships. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -2162,7 +2162,7 @@ added icon.png<br>
 >Disables all repeatable spaceport missions. I.e. shady passenger transport, drug smuggling, time critical transport or defend planet. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -2294,7 +2294,7 @@ added icon.png<br>
 >Adds unique crew members, aquireable through low chance spaceport missions. These crew members are technically outfits which require a bunk and a salary, but no outfit space or mass. They add, depending on their technology field, stats to your ship. Like shield regeneration, more thrust, more cargo etc. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -2523,7 +2523,7 @@ screenshots(click to enlarge):<br>
 >Adds lots of engine flare outfits to the big shipyards and outfitters. These outfits are just cosmetic. Idea by 'Thermognuclear Missile' on discord. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -2623,7 +2623,7 @@ screenshots(click to enlarge):<br>
 >Offers different job board banking services. From normal banking with low interest rates, over risky stock exchanges, and profitable investments (unlocked by missions), to a family trust. Available in human, quarg and hai space. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -2865,7 +2865,7 @@ screenshots(click to enlarge):<br>
 >Adds a new faction of Gegno pirates which lets you capture Gegno ships, gain Gegno/Scin/Vi reputation, open their planets for travel, loot Gegno licenses and create an outfitter/shipyard for all their gear. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3013,7 +3013,7 @@ screenshots(click to enlarge):<br>
 >Unlocks following hai missions: Unwanted Cargo Trigger, Hiding in Plain Sight, Nanachi 1,Expanding Business [1] and Hai Reveal: Pirate Troubles [0]. If there are followups they work too. Also Devil-Run related systems are shown now. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3120,7 +3120,7 @@ initial release<br>
 >Offers thousands of new jobs with high cargo and passengers. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3196,7 +3196,7 @@ screenshots(click to enlarge):<br>
 >This plugin adds some casino space stations where you can gamble. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3279,7 +3279,7 @@ screenshots(click to enlarge):<br>
 >Reworks the Human area labels and adds area borders. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3400,7 +3400,7 @@ screenshots(click to enlarge):<br>
 >Recolors all jobs to sort them by category(cargo/passenger/escort/etc). See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3501,7 +3501,7 @@ screenshots(click to enlarge):<br>
 >Adds a ring of 'jump gates' at the borders of human space to create shortcuts inside the human space. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3598,7 +3598,7 @@ screenshots(click to enlarge):<br>
 >Unlocks all Kestrel variants after you have unlocked the first one. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3671,7 +3671,7 @@ initial release<br>
 >Adds a shipyard with the three Kor Efret ships to Laki Nemparu(Kashikt) in Kor Efret space. Also adds an outfitter with all outfits of these three ships and some Korath Exiles outfits. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3886,7 +3886,7 @@ reworked readme<br>
 >Replaces all planet landing images with better fitting ones. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -3980,7 +3980,7 @@ screenshots(click to enlarge):<br>
 >High resolution files for landing.images plugin. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4061,7 +4061,7 @@ initial release<br>
 >Adds several side missions to acquire unobtainable licenses. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4170,7 +4170,7 @@ screenshots(click to enlarge):<br>
 >Enables a job on every planet's job board, that shows missions you haven't done. It also shows the 'source' and 'to offer' of these missions, so you can easily find them. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4327,7 +4327,7 @@ screenshots(click to enlarge):<br>
 >Adds the new system 'Mego Pug', in eastern Bunrodea space. There you can farm rare spawning Arfectas and other more common Pug ships, without ruining your Pug reputation. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4411,7 +4411,7 @@ screenshots(click to enlarge):<br>
 >Adds lots of repeatable boarding and assisting missions for different factions. Boarding bigger ships give higher rewards or higher chances for credits or special items. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4639,7 +4639,7 @@ screenshots(click to enlarge):<br>
 >This plugin adds more person ships to the different regions of the galaxy. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4794,7 +4794,7 @@ screenshots(click to enlarge):<br>
 >Removes the mines from Mereti ships and replaces them with Husk-Slice and Shield Disruptor guns to increase game performance. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4877,7 +4877,7 @@ initial release<br>
 >Adds several non-weapon outfits for gun and turret ports. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -4959,7 +4959,7 @@ screenshots(click to enlarge):<br>
 >Offers a job on Earth to paint your ships. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5042,7 +5042,7 @@ screenshots(click to enlarge):<br>
 >This is a storyline entirely on a planets surface(with fitting visuals). Available at the outfitter on planet Memory. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5170,7 +5170,7 @@ screenshots(click to enlarge):<br>
 >Adds a new system 'Saquerver' (between human and coalition space) where you can farm a new Quarg faction. Also the death sentence from all other Quarg got removed. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5282,7 +5282,7 @@ screenshots(click to enlarge):<br>
 >This plugin allows you to merge several ships of the same type into one with improved attributes. This can be done several times, up to a T10 ship. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5399,7 +5399,7 @@ screenshots(click to enlarge):<br>
 >Enables a job on the Earth job board, that shows the reputation values. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5513,7 +5513,7 @@ screenshots(click to enlarge):<br>
 >Adds three missions that lead to adding androids to the outfitter on Snowfeather(Hai space). Starts on Snowfeather(Bore Fah) when having at least one android installed. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5641,7 +5641,7 @@ screenshots(click to enlarge):<br>
 >Adds space fauna fleets to all systems. Useless but pretty, to make the universe more alive. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5735,7 +5735,7 @@ screenshots(click to enlarge):<br>
 >Removes all non-mineable asteroids from all systems. Mineable asteroids and asteroid belts are untouched. Increases game performance. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5850,7 +5850,7 @@ added a python script which generates the asteroids.txt(in case I don't update t
 >Allows you to tribute all Republic planets, without losing Free Worlds or Deep Security reputation. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -5931,7 +5931,7 @@ screenshots(click to enlarge):<br>
 >Removes mass and outfit space from some uniques, puts others into unique category, or gives a png if there isn't one. Also adds lots of new uniques. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
@@ -6281,7 +6281,7 @@ screenshots(click to enlarge):<br>
 >A bunch of small QoL adjustment plugins. Just delete the unwanted and enjoy the wanted tweaks. See the README for details.
 
 <details>
-<summary>:blue_book: Plugin readme</summary>
+<summary>show README</summary>
 
 <blockquote>
 
