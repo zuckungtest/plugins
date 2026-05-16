@@ -132,6 +132,8 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <details>
 <summary>show README</summary>
 
+<font size="1">
+
 <blockquote>
 
 ### additional.command.buttons <br>
@@ -406,6 +408,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -441,6 +445,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -513,6 +519,8 @@ changed readme<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -538,6 +546,8 @@ changed readme<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -594,6 +604,8 @@ changed icon.png<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -619,6 +631,8 @@ changed icon.png<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -749,6 +763,8 @@ added Start Explorer to Automata<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -782,6 +798,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -878,6 +896,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -918,6 +938,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -1142,6 +1164,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -1182,6 +1206,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -1404,6 +1430,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -1437,6 +1465,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -1515,6 +1545,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -1549,6 +1581,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -1759,6 +1793,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -1792,6 +1828,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -1854,6 +1892,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -1889,6 +1929,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -2025,6 +2067,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -2059,6 +2103,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -2138,6 +2184,8 @@ added icon.png<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -2163,6 +2211,8 @@ added icon.png<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -2270,6 +2320,8 @@ added icon.png<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -2295,6 +2347,8 @@ added icon.png<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -2484,6 +2538,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -2524,6 +2580,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -2584,6 +2642,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -2624,6 +2684,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -2828,6 +2890,8 @@ moved investment missions from spaceport mission to job board<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -2866,6 +2930,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -2980,6 +3046,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -3014,6 +3082,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3096,6 +3166,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -3121,6 +3193,8 @@ initial release<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3164,6 +3238,8 @@ initial release (requested and tested by Lowry)<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -3197,6 +3273,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3247,6 +3325,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -3280,6 +3360,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3366,6 +3448,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -3401,6 +3485,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3469,6 +3555,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -3502,6 +3590,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3564,6 +3654,8 @@ text corrections (thx to TheGiraffe3)<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -3599,6 +3691,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3647,6 +3741,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -3672,6 +3768,8 @@ initial release<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3862,6 +3960,8 @@ reworked readme<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -3887,6 +3987,8 @@ reworked readme<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -3941,6 +4043,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -3981,6 +4085,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4037,6 +4143,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -4062,6 +4170,8 @@ initial release<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4136,6 +4246,8 @@ typo fixes(by snoggles)<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -4171,6 +4283,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4295,6 +4409,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -4328,6 +4444,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4378,6 +4496,8 @@ added plugin.txt<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -4412,6 +4532,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4600,6 +4722,8 @@ added icon and reworked readme<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -4640,6 +4764,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4760,6 +4886,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -4795,6 +4923,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4853,6 +4983,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -4878,6 +5010,8 @@ initial release<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -4926,6 +5060,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -4960,6 +5096,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5010,6 +5148,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5043,6 +5183,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5133,6 +5275,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5171,6 +5315,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5249,6 +5395,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5283,6 +5431,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5367,6 +5517,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5400,6 +5552,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5480,6 +5634,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5514,6 +5670,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5607,6 +5765,8 @@ removed remnant mission requirement<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5642,6 +5802,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5702,6 +5864,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5736,6 +5900,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5826,6 +5992,8 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 
 </blockquote>
+
+</font>
 </details>
 
 
@@ -5851,6 +6019,8 @@ added a python script which generates the asteroids.txt(in case I don't update t
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -5899,6 +6069,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -5932,6 +6104,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -6244,6 +6418,8 @@ changed icon.png<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 <br>
@@ -6282,6 +6458,8 @@ screenshots(click to enlarge):<br>
 
 <details>
 <summary>show README</summary>
+
+<font size="1">
 
 <blockquote>
 
@@ -6370,6 +6548,8 @@ initial release<br>
 
 
 </blockquote>
+
+</font>
 </details>
 
 
