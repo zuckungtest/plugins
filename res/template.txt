@@ -62,15 +62,14 @@ If you want to contribute (beside finding bugs, or suggesting changes), see my t
 <details>
 <summary>show README</summary>
 
-<font size="1">
-
 <blockquote>
 
+<font size="1">
 %readme%
+</font>
 
 </blockquote>
 
-</font>
 </details>
 
 %screenshots%
