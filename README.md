@@ -4,6 +4,8 @@ Please excuse bad English, spelling, grammar, etc... English isn't my mother ton
 <a href="https://github.com/zuckung/endless-sky-plugins/pulls">Pull requests</a>, <a href="https://github.com/zuckung/endless-sky-plugins/discussions">discussions</a> and <a href="https://github.com/zuckung/endless-sky-plugins/issues">Issue reports</a> are welcome! <br>
 <br>
 If you want to contribute (beside finding bugs, or suggesting changes), see my to-do list (<a href="https://github.com/zuckung/endless-sky-plugins/blob/main/res/2do.txt">2do.txt</a>).<br>
+<img src="https://raw.githubusercontent.com/zuckungtest/plugins/master/res/ai.png" width="130"><br>
+(Nearly all images are AI generated, and some texts are corrected/rephrased by AI)<br><br>
 <br>
 <a href="https://github.com/zuckung/endless-sky-plugins/blob/main/license"><img src="https://img.shields.io/github/license/zuckung/endless-sky-plugins"></a>
 <a href="https://github.com/zuckung/endless-sky-plugins/commits/main"><img src="https://img.shields.io/github/last-commit/zuckung/endless-sky-plugins/main"></a>
